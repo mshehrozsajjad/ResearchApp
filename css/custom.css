@@ -16,12 +16,12 @@
 {
 	padding: 20px 0;
 }
-.btn-group>.btn
+.google-form .btn-group>.btn
 {
 	border-radius: 0;
 	margin: 0 10px;
 }
-.btn
+ .google-form .btn
 {
 	background-color: #f2f2f2;
 	color: #757575;
@@ -37,5 +37,5 @@
 }
 .form-control:disabled{
     background-color: white;
-    
+
 }
