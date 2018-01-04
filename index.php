@@ -65,7 +65,7 @@
               <br/>
 
             </p>
-              <a href="page2.html"  class="btn btn-primary  btn-shadow btn-gradient">Continue</a>
+              <a href="page2.php"  class="btn btn-primary  btn-shadow btn-gradient">Continue</a>
             </div>
         </div>
 
