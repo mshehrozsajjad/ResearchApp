@@ -1,1 +1,41 @@
 /* your styles go here */
+.google-logo
+{
+	padding: 20px 0;
+}
+.google-search
+{
+	padding: 20px 10px;
+}
+.google-search:focus
+{
+	box-shadow:silver 0 2px 10px;
+	border-color: silver;
+}
+.google-form .btn-group
+{
+	padding: 20px 0;
+}
+.btn-group>.btn
+{
+	border-radius: 0;
+	margin: 0 10px;
+}
+.btn
+{
+	background-color: #f2f2f2;
+	color: #757575;
+	font-weight: 900;
+}
+.searchBox{
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: -5.665px 9.429px 35px 0px rgba(0, 0, 0, 0.2);
+
+
+}
+.form-control:disabled{
+    background-color: white;
+    
+}
