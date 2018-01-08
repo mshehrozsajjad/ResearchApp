@@ -49,35 +49,35 @@ require 'headerResult.php';
         </div>
       </div>
       <div class="results">
-        <p id="num-results">About 10,760,000,000 results (0.49 seconds)</p>
+        <p id="num-results">About 537,000 results (0.83 seconds) </p>
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page10.php?p=9&t=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page10.php?p=9&t=1&l=1" >Divorce Lawyer - Get Advice Tailored to You - peterroselaw.com‎</a></h2>
           <p><span class="_mB">Ad</span>
-            <a   class="link">www.plumbersnearyou.com/</a><p>
+            <a   class="link">www.peterroselaw.com/</a><p>
               <p class="summary">
-                Enter Zip Code for Local Emergency Plumbers. Call now for Experts.
-                Trusted professionals · Call for appointment now · Fast & Reliable · Exhaustive directory
-                Services: Water heaters, Sump pumps, Septic systems, Pipe work
+                Family Law, Divorce, Child Support, etc. Call Today For A Free Consultation!
               </p>
             </div>
             <div class="search-results">
-              <h2><a href="page10.php?p=9&t=1" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+              <h2><a href="page10.php?p=9&t=1&l=2" >Divorce Lawyer In Florida - Do You Know Where You Stand?‎</a></h2>
               <p><span class="_mB">Ad</span>
-                <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
+                <a   class="link">www.family-lawyer-now.com/‎</a><p>
                   <p class="summary">
-                    Prompt, Professional Plumbing and Water Heater Service 24/7. $25 Off Coupon.
-                    Expert Plumbing Repairs · Certified Plumbers · 24/7 Emergency Service · Satisfaction Guaranteed
-                    Services: Drain Cleaning, Water Heater Service, Leak Detection/Repair, Sewer Services
+                    Find Out - Competitive Rates - Location Nearby - Hablmos Español - Call Now
+                    Call Us Now · 5-Star Rated By Clients · AVVO Clients Choice Award
+                    Types: Child Custody, Divorce, Mediation
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page10.php?p=9&t=1" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page10.php?p=9&t=1&l=3" >Broward County Divorce Lawyers - Search Top Rated Lawyers in FL‎</a></h2>
                   <p><span class="_mB">Ad</span>
-                    <a   class="link">www.crisbro.com/employment/</a><p>
+                    <a   class="link">www.avvo.com/divorce-lawyers/broward-county‎</a><p>
                       <p class="summary">
-                        Join Crisafulli Bros. Proud to be the Best in the Region for Over 75 Years!
+                        Find Contact Info & Compare Ratings of Broward County, FL Divorce Attorneys
+                        Types: Divorce, Family Law, Marital Separation, Child Custody, Alimony, Child Support
+                        Provides ratings and reviews of lawyers – Huffington Post
 
                       </p>
                     </div>
@@ -85,10 +85,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page10.php?p=9&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page10.php?p=9&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page10.php?p=9&t=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page10.php?p=9&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +96,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page10.php?p=9&t=2"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page10.php?p=9&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +104,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page10.php?p=9&t=2"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page10.php?p=9&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -116,52 +116,51 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page10.php?p=9&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                      <h2><a href="page10.php?p=9&t=3&l=1"   >Fort Lauderdale Divorce Lawyers - Compare Top Divorce Attorneys in ...</a></h2>
                       <p>
-                        <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                        <a class="link">https://www.justia.com/lawyers/divorce/florida/fort-lauderdale</a><p>
                           <p class="summary">
-                            Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                            Mr Eric Klein. Fort Lauderdale, FL Divorce Lawyer. Lori Barkus. Fort Lauderdale, FL Divorce Lawyer. Annette Newman Esq. Fort Lauderdale, FL Divorce Lawyer. Cindy S. Vova. Plantation, FL Divorce Attorney. Elissa S. Pearl. Fort Lauderdale, FL Divorce Lawyer. Laura Arcaro. Kelley Anne Joseph. Nadia Leah Pazos.
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page10.php?p=9&t=3"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page10.php?p=9&t=3&l=2"   >Top Divorce Lawyers in Broward County, FL | FindLaw</a></h2>
                           <p>
-                            <a class="link">https://www.rotorooter.com</a><p>
+                            <a class="link">lawyers.findlaw.com › Divorce › Florida</a><p>
                               <p class="summary">
-                                Trusted and recommended since 1935, Roto-Rooter is the premier provider of plumbing and drain cleaning services in Albany, NY. Homeowners and businesses depend on Roto-Rooter 24 hours a day, 7 days a week. Our specialty is emergency services. Your call will be answered by a trained customer service  ...
+                                Results 1 - 20 of 100 - The Law Offices of Paul G. Finizio, P.A.. Divorce Lawyers Serving Broward County, FL (Fort Lauderdale). 1. Law Firm Profile. Free Consultation. Sample Image ...
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page10.php?p=9&t=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
-                              </a></h2>
+                              <h2><a href="page10.php?p=9&t=3&l=3"   >Find the best Divorce lawyer in Fort Lauderdale, FL 2018 - Avvo</a></h2>
                               <p>
-                                <a class="link">https://www.rotorooter.com</a><p>
+                                <a class="link">https://www.avvo.com › Find a lawyer › Florida › Fort Lauderdale</a><p>
                                   <p class="summary">
-                                    Albany Plumber, Providing Emergency Plumbing and Drain Service. Roto-Rooter plumbers in Albany provide plumbing maintenance and repairs as well as clogged drain cleaning. Roto-Rooter's Albany plumbers offer residential and commercial plumbing services that customers depend on for all of their local plumbing ...
+                                    FREE detailed reports on 213 Divorce Attorneys in Fort Lauderdale, Florida including disciplinary sanctions, peer endorsements, and reviews.
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page10.php?p=9&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                                  <h2><a href="page10.php?p=9&t=3&l=4"   >Best Divorce attorney in Fort Lauderdale, FL - Yelp</a></h2>
                                   <p>
-                                    <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                                    <a class="link">https://www.yelp.com/search?find_desc=Divorce+Attorney...Fort+Lauderdale%2C...</a><p>
                                       <p class="summary">
-                                        Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                                        Ad Castro Legal Group. Business Law, Immigration Law, Divorce & Family Law. Levinson & Capuano. 3 reviews. Heitner Legal. 16 reviews. The Law Offices of Alan Jay Braverman, PA. 1 review. Law Offices of Carmen G. Soto. Vova S Cindy. 3 reviews. Mayersohn Law Group. 3 reviews. The Law Firm of Cohen & Chambers, P.A. 1 ...
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page10.php?p=9&t=3"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
+                                      <h2><a href="page10.php?p=9&t=3&l=5"   >Fort Lauderdale Family & Divorce Attorney</a></h2>
                                       <p>
-                                        <a class="link">https://www.homeadvisor.com</a><p>
+                                        <a class="link">https://www.sandrabonfiglio.com/</a><p>
                                           <p class="summary">
-                                            New Lead. Project: Install, Repair or Replace Plumbing or Fixtures - For Business . Location: Albany, NY. Date: 01/04/2018. Is this an emergency?: No. Request Stage: Ready to Hire. Desired Completion Date: Timing is flexible. What kind of location is this?: Business. Comment: Need the flusher replaced in our toilet or have ...
+                                           Our Fort Lauderdale family law & divorce attorneys work hard to obtain favorable results for our clients as efficiently as possible.
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page10.php?p=9&t=3"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
+                                          <h2><a href="page10.php?p=9&t=3&l=6"   >The 5 Best Divorce Lawyers in Fort Lauderdale, FL (with Free Estimates)</a></h2>
                                           <p>
-                                            <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
+                                            <a class="link">https://www.thumbtack.com › FL › Fort Lauderdale</a><p>
                                               <p class="summary">
-                                                282 results - Local plumbers in Albany, NY. Compare expert Plumbers, read reviews, and find contact information - THE REAL YELLOW PAGES®
+                                                Here is the definitive list of Fort Lauderdale's divorce lawyers as rated by the Fort Lauderdale, FL community. Want to see who made the cut?
                                               </p>
                                             </div>
 

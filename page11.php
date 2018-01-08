@@ -49,31 +49,30 @@ require 'headerResult.php';
         </div>
       </div>
       <div class="results">
-        <p id="num-results">About 10,760,000,000 results (0.49 seconds)</p>
+        <p id="num-results">About 1,310,000 results (0.74 seconds)</p>
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page12.php?p=11&t=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page12.php?p=11&t=1&l=1" >Personal Training Miami - One-To-One Personal Training - erafit.com‎</a></h2>
           <p><span class="_mB">Ad</span>
-            <a   class="link">www.plumbersnearyou.com/</a><p>
+            <a   class="link">www.erafit.com/‎</a><p>
               <p class="summary">
-                Enter Zip Code for Local Emergency Plumbers. Call now for Experts.
-                Trusted professionals · Call for appointment now · Fast & Reliable · Exhaustive directory
-                Services: Water heaters, Sump pumps, Septic systems, Pipe work
+                Claim your FREE Body Type Training consultation today. Limited spots available
+                Register Online · Get Free Consultation
               </p>
             </div>
             <div class="search-results">
-              <h2><a href="page12.php?p=11&t=1" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+              <h2><a href="page12.php?p=11&t=1&l=2" >SVETNESS Personal Trainers - Miami FL - svetness.com‎</a></h2>
               <p><span class="_mB">Ad</span>
-                <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
+                <a   class="link">www.svetness.com/‎‎</a><p>
                   <p class="summary">
-                    Prompt, Professional Plumbing and Water Heater Service 24/7. $25 Off Coupon.
-                    Expert Plumbing Repairs · Certified Plumbers · 24/7 Emergency Service · Satisfaction Guaranteed
-                    Services: Drain Cleaning, Water Heater Service, Leak Detection/Repair, Sewer Services
+                    Schedule FREE Fitness Consultation Now and get Premium Service!
+                    Yoga, Bodybuilding & More · Detailed Nutrition Plans · Personalized Workouts · We Come To You
+                    Highlights: Flexible Service, Receive A Personal Fitness Plan
                   </p>
-                </div>
+                <!--</div>
                 <div class="search-results">
-                  <h2><a href="page12.php?p=11&t=1" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page12.php?p=11&t=1&l=3" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
@@ -81,14 +80,14 @@ require 'headerResult.php';
 
                       </p>
                     </div>
-
+ -->
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page12.php?p=11&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page12.php?p=11&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page12.php?p=11&t=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page12.php?p=11&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +95,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page12.php?p=11&t=2"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page12.php?p=11&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +103,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page12.php?p=11&t=2"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page12.php?p=11&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -116,52 +115,52 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page12.php?p=11&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                      <h2><a href="page12.php?p=11&t=3&l=1"   >Miami Personal Trainers | Miami, Florida - YourTrainer.com</a></h2>
                       <p>
-                        <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                        <a class="link">https://yourtrainer.com/find/personal-training/florida/miami</a><p>
                           <p class="summary">
-                            Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                            See Miami Personal Trainers. Browse official photos, rates, and availability for Personal Trainers in Miami at YourTrainer.com.
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page12.php?p=11&t=3"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page12.php?p=11&t=3&l=2"   >Miami Personal Trainer - Personal Trainers in Miami, FL</a></h2>
                           <p>
-                            <a class="link">https://www.rotorooter.com</a><p>
+                            <a class="link">https://www.ideafit.com/find-personal-trainer/fl/miami</a><p>
                               <p class="summary">
-                                Trusted and recommended since 1935, Roto-Rooter is the premier provider of plumbing and drain cleaning services in Albany, NY. Homeowners and businesses depend on Roto-Rooter 24 hours a day, 7 days a week. Our specialty is emergency services. Your call will be answered by a trained customer service  ...
+                                Results 1 - 10 of 1773 - Tips for Finding a Personal Trainer in Miami, FL. Look for a "verified" Personal Trainer who is certified by a nationally recognized organization. Make sure the Personal Trainer you choose has liability insurance and a CPR/AED certification. Be aware of how many years of experience the Personal Trainer has.
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page12.php?p=11&t=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
+                              <h2><a href="page12.php?p=11&t=3&l=3"   >The 10 Best Personal Trainers in Miami, FL (with Free Estimates)
                               </a></h2>
                               <p>
-                                <a class="link">https://www.rotorooter.com</a><p>
+                                <a class="link">https://www.thumbtack.com › FL › Miami</a><p>
                                   <p class="summary">
-                                    Albany Plumber, Providing Emergency Plumbing and Drain Service. Roto-Rooter plumbers in Albany provide plumbing maintenance and repairs as well as clogged drain cleaning. Roto-Rooter's Albany plumbers offer residential and commercial plumbing services that customers depend on for all of their local plumbing ...
+                                    Here is the definitive list of Miami's personal trainers as rated by the Miami, FL community. Want to see who made the cut?
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page12.php?p=11&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                                  <h2><a href="page12.php?p=11&t=3&l=4"   >Best Personal trainer in Miami, FL - Yelp</a></h2>
                                   <p>
-                                    <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                                    <a class="link">https://www.yelp.com/search?find_desc=Personal+Trainer&find_loc=Miami%2C...</a><p>
                                       <p class="summary">
-                                        Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                                        Coconut Grove Health & Fitness. 24 reviews. Nutritionists, Trainers, Gyms. Casandra Madero-Perez. 12 reviews. Trainers. ERA Fit. 37 reviews. Trainers. Body & Soul. 39 reviews. Trainers, Barre Classes, Boxing. Push Pts. 11 reviews. Trainers. Somi Fitness. 6 reviews. Pro Level Fitness. 7 reviews. The 24 Hour Trainer. 6 ...
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page12.php?p=11&t=3"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
+                                      <h2><a href="page12.php?p=11&t=3&l=5"   >Miami Personal Trainer - Deals in Miami, FL | Groupon</a></h2>
                                       <p>
-                                        <a class="link">https://www.homeadvisor.com</a><p>
+                                        <a class="link">https://www.groupon.com › Local › Florida › Miami › Health & Fitness › Gyms</a><p>
                                           <p class="summary">
-                                            New Lead. Project: Install, Repair or Replace Plumbing or Fixtures - For Business . Location: Albany, NY. Date: 01/04/2018. Is this an emergency?: No. Request Stage: Ready to Hire. Desired Completion Date: Timing is flexible. What kind of location is this?: Business. Comment: Need the flusher replaced in our toilet or have ...
+                                            Personal Trainer deals in Miami, FL: 50 to 90% off deals in Miami. One or Three Personal Training Sessions at Ironflower Fitness (Up to 58% Off). Five Reformer Pilates or TRX Classes, or Three Private Reformer Classes at Pilates Strong Studio (Up to 72% Off). Two Personal Training Sessions with Diet and Weight-Loss ...
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page12.php?p=11&t=3"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
+                                          <h2><a href="page12.php?p=11&t=3&l=6"   >Personal Trainer Jobs, Employment in Miami, FL | Indeed.com</a></h2>
                                           <p>
-                                            <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
+                                            <a class="link">https://www.indeed.com/q-Personal-Trainer-l-Miami,-FL-jobs.html</a><p>
                                               <p class="summary">
-                                                282 results - Local plumbers in Albany, NY. Compare expert Plumbers, read reviews, and find contact information - THE REAL YELLOW PAGES®
+                                                214 Personal Trainer jobs available in Miami, FL on Indeed.com. Fitness Trainer, Physical Education Teacher, Wellness Coordinator and more!
                                               </p>
                                             </div>
 

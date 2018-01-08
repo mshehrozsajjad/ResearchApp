@@ -53,7 +53,7 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page6.php?p=5&t=1" >A+ Dr. Thomas Perkins- Erie PA - Chiropractic Pain Specialist‎‎</a></h2>
+          <h2><a  href="page6.php?p=5&t=1&l=1" >A+ Dr. Thomas Perkins- Erie PA - Chiropractic Pain Specialist‎‎</a></h2>
           <p><span class="_mB">Ad</span>
             <a   class="link">www.lakeeriespine.com/</a><p>
               <p class="summary">
@@ -67,10 +67,10 @@ require 'headerResult.php';
             <!-- End Ads -->
 
             <div class="card">
-              <a href="page6.php?p=5&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+              <a href="page6.php?p=5&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
               <div class="container">
                 <div class="search-results border">
-                  <h2 style="color:black;"><a href="page6.php?p=5&t=2"   >Lake Erie Spine & Injury Center</a></h2>
+                  <h2 style="color:black;"><a href="page6.php?p=5&t=2&l=2"   >Lake Erie Spine & Injury Center</a></h2>
                   <p>
                     <a class="summary">Erie, PA · (814) 835-0911</a><p>
                       <p class="summary">
@@ -78,7 +78,7 @@ require 'headerResult.php';
                       </p>
                     </div>
                     <div class="search-results border">
-                      <h2><a href="page6.php?p=5&t=2"   >Iadeluca Chiropractic Center</a></h2>
+                      <h2><a href="page6.php?p=5&t=2&l=3"   >Iadeluca Chiropractic Center</a></h2>
                       <p>
                         <a class="summary">Erie, PA, USA · +1 814-459-2580</a><p>
                           <p class="summary">
@@ -86,7 +86,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page6.php?p=5&t=2"   >Chiropractic Solutions</a></h2>
+                          <h2><a href="page6.php?p=5&t=2&l=4"   >Chiropractic Solutions</a></h2>
                           <p>
                             <a class="summary">
                               Erie, PA, USA · +1 814-825-1102</a><p>
@@ -98,7 +98,7 @@ require 'headerResult.php';
                           </div>
                           <!-- Organic Links -->
                           <div class="search-results">
-                            <h2><a href="page6.php?p=5&t=3"   >The Best 10 Chiropractors in Erie, PA - Last Updated January 2018 ...</a></h2>
+                            <h2><a href="page6.php?p=5&t=3&l=1"   >The Best 10 Chiropractors in Erie, PA - Last Updated January 2018 ...</a></h2>
                             <p>
                               <a class="link">https://www.yelp.com</a><p>
                                 <p class="summary">
@@ -106,7 +106,7 @@ require 'headerResult.php';
                                 </p>
                               </div>
                               <div class="search-results">
-                                <h2><a href="page6.php?p=5&t=3"   >
+                                <h2><a href="page6.php?p=5&t=3&l=2"   >
                                 Best Chiropractors in Erie, PA - Chiropractors Reviews & Ratings ...
                                 </a></h2>
                                 <p>
@@ -116,7 +116,7 @@ require 'headerResult.php';
                                     </p>
                                   </div>
                                   <div class="search-results">
-                                    <h2><a href="page6.php?p=5&t=3"   >
+                                    <h2><a href="page6.php?p=5&t=3&l=3"   >
                                       Chiropractic Solutions | Erie Chiropractor Millcreek and Harborcreek PA
                                     </a></h2>
                                     <p>
@@ -127,7 +127,7 @@ require 'headerResult.php';
                                         </p>
                                       </div>
                                       <div class="search-results">
-                                        <h2><a href="page6.php?p=5&t=3"   >Erie Chiropractor, Erie PA | Krauza Family Chiropractic (814) 898-2346</a></h2>
+                                        <h2><a href="page6.php?p=5&t=3&l=4"   >Erie Chiropractor, Erie PA | Krauza Family Chiropractic (814) 898-2346</a></h2>
                                         <p>
                                           <a class="link">https://www.krauzachiro.com</a><p>
                                             <p class="summary">
@@ -135,7 +135,7 @@ require 'headerResult.php';
                                             </p>
                                           </div>
                                           <div class="search-results">
-                                            <h2><a href="page6.php?p=5&t=3"   >Top 2 Best Erie PA Chiropractors | Angie's List</a></h2>
+                                            <h2><a href="page6.php?p=5&t=3&l=5"   >Top 2 Best Erie PA Chiropractors | Angie's List</a></h2>
                                             <p>
                                               <a class="link">https://www.angieslist.com</a><p>
                                                 <p class="summary">
@@ -143,7 +143,7 @@ require 'headerResult.php';
                                                 </p>
                                               </div>
                                               <div class="search-results">
-                                                <h2><a href="page6.php?p=5&t=3"   >Chiropractor Erie PA | Neck & Back Center of Erie
+                                                <h2><a href="page6.php?p=5&t=3&l=6"   >Chiropractor Erie PA | Neck & Back Center of Erie
 </a></h2>
                                                 <p>
                                                   <a class="link">https://www.eriechiroclinic.com</a><p>

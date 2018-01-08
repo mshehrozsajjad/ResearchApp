@@ -49,31 +49,28 @@ require 'headerResult.php';
         </div>
       </div>
       <div class="results">
-        <p id="num-results">About 10,760,000,000 results (0.49 seconds)</p>
+        <p id="num-results">About 396 results (0.76 seconds)</p>
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page14.php?p=13&t=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page14.php?p=13&t=1&l=1" >Fitness Training Classes - Schedule Your Free Class Today‎</a></h2>
           <p><span class="_mB">Ad</span>
-            <a   class="link">www.plumbersnearyou.com/</a><p>
+            <a   class="link">www.fitboxmethod.com/‎</a><p>
               <p class="summary">
-                Enter Zip Code for Local Emergency Plumbers. Call now for Experts.
-                Trusted professionals · Call for appointment now · Fast & Reliable · Exhaustive directory
-                Services: Water heaters, Sump pumps, Septic systems, Pipe work
+                Fitbox Method is a Fun and Effective Workout Class For Individuals and Groups!
+                Intimate Classes · Lifetsyle Workouts · Rock Star Instructors · Total Body Workout · Skills Progression
               </p>
             </div>
-            <div class="search-results">
-              <h2><a href="page14.php?p=13&t=1" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+           <!-- <div class="search-results">
+              <h2><a href="page14.php?p=13&t=1&l=2" >Personal Trainer Jobs, Employment in Miami, FL | Indeed.com</a></h2>
               <p><span class="_mB">Ad</span>
-                <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
+                <a   class="link">https://www.indeed.com/q-Personal-Trainer-l-Miami,-FL-jobs.html</a><p>
                   <p class="summary">
-                    Prompt, Professional Plumbing and Water Heater Service 24/7. $25 Off Coupon.
-                    Expert Plumbing Repairs · Certified Plumbers · 24/7 Emergency Service · Satisfaction Guaranteed
-                    Services: Drain Cleaning, Water Heater Service, Leak Detection/Repair, Sewer Services
+                    214 Personal Trainer jobs available in Miami, FL on Indeed.com. Fitness Trainer, Physical Education Teacher, Wellness Coordinator and more!
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page14.php?p=13&t=1" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page14.php?p=13&t=1&l=3" >Physical Education Jobs, Employment in Miami, FL | Indeed.com</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
@@ -82,13 +79,13 @@ require 'headerResult.php';
                       </p>
                     </div>
 
-                    <!-- End Ads -->
+                    <!-- End Ads 
 
                     <div class="card">
-                      <a href="page14.php?p=13&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page14.php?p=13&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page14.php?p=13&t=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page14.php?p=13&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +93,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page14.php?p=13&t=2"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page14.php?p=13&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +101,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page14.php?p=13&t=2"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page14.php?p=13&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -113,55 +110,80 @@ require 'headerResult.php';
                                   </p>
                             </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page14.php?p=13&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                      <h2><a href="page14.php?p=13&t=3&l=1"   >Personal Trainer Jobs, Employment in Miami, FL | Indeed.com</a></h2>
                       <p>
-                        <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                        <a class="link">https://www.indeed.com/q-Personal-Trainer-l-Miami,-FL-jobs.html</a><p>
                           <p class="summary">
-                            Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
-                          </p>
+                            214 Personal Trainer jobs available in Miami, FL on Indeed.com. Fitness Trainer, Physical Education Teacher, Wellness Coordinator and more!
                         </div>
                         <div class="search-results">
-                          <h2><a href="page14.php?p=13&t=3"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page14.php?p=13&t=3&l=2"   >Physical Education Jobs, Employment in Miami, FL | Indeed.com</a></h2>
                           <p>
-                            <a class="link">https://www.rotorooter.com</a><p>
+                            <a class="link">https://www.indeed.com/q-Physical-Education-l-Miami,-FL-jobs.html</a><p>
                               <p class="summary">
-                                Trusted and recommended since 1935, Roto-Rooter is the premier provider of plumbing and drain cleaning services in Albany, NY. Homeowners and businesses depend on Roto-Rooter 24 hours a day, 7 days a week. Our specialty is emergency services. Your call will be answered by a trained customer service  ...
+                                4122 Physical Education jobs available in Miami, FL on Indeed.com. Physical Education Teacher, Recreation Leader, Athletic Director and more!
+                                Missing: wellness
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page14.php?p=13&t=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
+                              <h2><a href="page14.php?p=13&t=3&l=3"   >Physical Education Teacher Jobs, Employment in Miami, FL | Indeed ...
                               </a></h2>
                               <p>
-                                <a class="link">https://www.rotorooter.com</a><p>
+                                <a class="link">https://www.indeed.com/q-Physical-Education-Teacher-in-Miami,-FL-jobs.html</a><p>
                                   <p class="summary">
-                                    Albany Plumber, Providing Emergency Plumbing and Drain Service. Roto-Rooter plumbers in Albany provide plumbing maintenance and repairs as well as clogged drain cleaning. Roto-Rooter's Albany plumbers offer residential and commercial plumbing services that customers depend on for all of their local plumbing ...
+                                   114 Physical Education Teacher jobs available in Miami, FL on Indeed.com. Physical Education Teacher, Recreation Leader, Teacher and more! ... Meet the physical standards of the Navy Education. Upon completion of NNPS, the student becomes the teacher. Work Environment Training & Advancement Education.
+                                   Missing: 214 ‎personal ‎wellness ‎coordinator
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page14.php?p=13&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                                  <h2><a href="page14.php?p=13&t=3&l=4"   >Working at Gold's Gym: 1,296 Reviews | Indeed.com</a></h2>
                                   <p>
-                                    <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                                    <a class="link">www.indeed.com/cmp/Gold's-Gym/reviews?start=500&sort=date_asc</a><p>
                                       <p class="summary">
-                                        Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                                        1296 reviews from Gold's Gym employees about Gold's Gym culture, salaries, benefits, work-life balance, management, job security, and more.
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page14.php?p=13&t=3"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
+                                      <h2><a href="page14.php?p=13&t=3&l=5"   >Working at Gold's Gym in United States: 1,296 Reviews | Indeed.ae</a></h2>
                                       <p>
-                                        <a class="link">https://www.homeadvisor.com</a><p>
+                                        <a class="link">https://www.indeed.ae/cmp/Gold's-Gym/reviews?fcountry=US&sort=rating...</a><p>
                                           <p class="summary">
-                                            New Lead. Project: Install, Repair or Replace Plumbing or Fixtures - For Business . Location: Albany, NY. Date: 01/04/2018. Is this an emergency?: No. Request Stage: Ready to Hire. Desired Completion Date: Timing is flexible. What kind of location is this?: Business. Comment: Need the flusher replaced in our toilet or have ...
+                                           1296 reviews from Gold's Gym employees about Gold's Gym culture, salaries, benefits, work-life balance, management, job security, and more.
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page14.php?p=13&t=3"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
+                                          <h2><a href="page14.php?p=13&t=3&l=6"   >Trabalhar na empresa YMCA: 16.109 Avaliações | Indeed.pt</a></h2>
                                           <p>
-                                            <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
+                                            <a class="link">https://www.indeed.pt/cmp/Ymca/reviews?fcountry=US...</a><p>
                                               <p class="summary">
-                                                282 results - Local plumbers in Albany, NY. Compare expert Plumbers, read reviews, and find contact information - THE REAL YELLOW PAGES®
+                                                16.109 avaliações de funcionários da empresa YMCA sobre a cultura YMCA, salários, benefícios, equilíbrio trabalho e vida pessoal, gerenciamento, estabilidade profissional e muito mais.
+                                              </p>
+                                            </div>
+                                            <div class="search-results">
+                                          <h2><a href="page14.php?p=13&t=3&l=7"   >2017 WHO'S WHO in the Martial Arts Legend Book by Jessie Bowen ...</a></h2>
+                                          <p>
+                                            <a class="link">https://issuu.com/jessiebowen/docs/amaa109351_reformat_edited_final_ma</a><p>
+                                              <p class="summary">
+                                                Sep 25, 2017 - Today, Karate International of Durham is known for being a black belt leadership academy and a pioneer in personal development training. Karate .... My martial arts philospy has been to teach all my students to reach their fullest potential and achieve total mental and physical fitness. Like most, I have ...
+                                              </p>
+                                            </div>
+                                            <div class="search-results">
+                                          <h2><a href="page14.php?p=13&t=3&l=8"   >Working at YMCA: 13.084 Reviews | Indeed.lu</a></h2>
+                                          <p>
+                                            <a class="link">https://www.indeed.lu/cmp/Ymca/reviews?fcountry=US&start...</a><p>
+                                              <p class="summary">
+                                               13.084 Bewertungen von YMCA Arbeitnehmern zu Unternehmenskultur, Gehälter, Sonderleistungen, Work-Life-Balance, Management, Arbeitsplatzsicherheit und weiteres bei YMCA.
+                                              </p>
+                                            </div>
+                                            <div class="search-results">
+                                          <h2><a href="page14.php?p=13&t=3&l=9"   >Working at YMCA: 16.109 Reviews | Indeed.lu</a></h2>
+                                          <p>
+                                            <a class="link">https://www.indeed.lu/cmp/Ymca/reviews?fcountry=US...en</a><p>
+                                              <p class="summary">
+                                                16.109 Bewertungen von YMCA Arbeitnehmern zu Unternehmenskultur, Gehälter, Sonderleistungen, Work-Life-Balance, Management, Arbeitsplatzsicherheit und weiteres bei YMCA.
                                               </p>
                                             </div>
 

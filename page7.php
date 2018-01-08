@@ -49,21 +49,20 @@ require 'headerResult.php';
         </div>
       </div>
       <div class="results">
-        <p id="num-results">About 10,760,000,000 results (0.49 seconds)</p>
+        <p id="num-results">About 1,090,000 results (0.73 seconds)</p>
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page8.php?p=7&t=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page8.php?p=7&t=1&l=1" >Expert Window Installation - Fully Licensed & Insured‎</a></h2>
           <p><span class="_mB">Ad</span>
-            <a   class="link">www.plumbersnearyou.com/</a><p>
+            <a   class="link">www.progressiveiw.com/Window/Installation‎</a><p>
               <p class="summary">
-                Enter Zip Code for Local Emergency Plumbers. Call now for Experts.
-                Trusted professionals · Call for appointment now · Fast & Reliable · Exhaustive directory
-                Services: Water heaters, Sump pumps, Septic systems, Pipe work
+                Includes Custom Cut & Painted Wood Trim. One-Call Warranty. Call for Free Quote!
+                Free In-home consultation · Energy-Efficient Windows · Top-Quality Windows · Free Quotes
               </p>
             </div>
-            <div class="search-results">
-              <h2><a href="page8.php?p=7&t=1" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+           <!-- <div class="search-results">
+              <h2><a href="page8.php?p=7&t=1&l=2" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
               <p><span class="_mB">Ad</span>
                 <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
                   <p class="summary">
@@ -73,22 +72,22 @@ require 'headerResult.php';
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page8.php?p=7&t=1" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page8.php?p=7&t=1&l=3" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
                         Join Crisafulli Bros. Proud to be the Best in the Region for Over 75 Years!
 
                       </p>
-                    </div>
+                    </div>-->
 
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page8.php?p=7&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page8.php?p=7&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page8.php?p=7&t=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page8.php?p=7&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +95,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page8.php?p=7&t=2"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page8.php?p=7&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +103,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page8.php?p=7&t=2"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page8.php?p=7&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -116,52 +115,52 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page8.php?p=7&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                      <h2><a href="page8.php?p=7&t=3&l=1"   >25 Best Window Replacement Companies - Glendale CA | HomeAdvisor</a></h2>
                       <p>
-                        <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                        <a class="link">https://www.homeadvisor.com › Pro Ratings & Reviews › California › Glendale</a><p>
                           <p class="summary">
-                            Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                            Read Reviews, Get Quotes and Instantly Book Window Replacement Companies in Glendale, California. Join over 35 million homeowners that have confidently hired a pro with HomeAdvisor.
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page8.php?p=7&t=3"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page8.php?p=7&t=3&l=2"   >The Best 10 Windows Installation near Glendale, Los Angeles, CA - Yelp</a></h2>
                           <p>
-                            <a class="link">https://www.rotorooter.com</a><p>
+                            <a class="link">https://www.yelp.com › ... › Glendale › Home Services › Windows Installation</a><p>
                               <p class="summary">
-                                Trusted and recommended since 1935, Roto-Rooter is the premier provider of plumbing and drain cleaning services in Albany, NY. Homeowners and businesses depend on Roto-Rooter 24 hours a day, 7 days a week. Our specialty is emergency services. Your call will be answered by a trained customer service  ...
+                                Best Windows Installation in Glendale, Los Angeles, CA - On The Spot Glass, SaveCal, Future Glass Company, Economy Glass Co West, View Window & Mirror Home Repair, SCV Glassworks, Quick's Glass & Doors, Levet, Atwater Screen & Glass Shop, Versa...
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page8.php?p=7&t=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
+                              <h2><a href="page8.php?p=7&t=3&l=3"   >Best Windows replacement near Glendale, Los Angeles, CA - Yelp
                               </a></h2>
                               <p>
-                                <a class="link">https://www.rotorooter.com</a><p>
+                                <a class="link">https://www.yelp.com › Los Angeles, CA › Glendale</a><p>
                                   <p class="summary">
-                                    Albany Plumber, Providing Emergency Plumbing and Drain Service. Roto-Rooter plumbers in Albany provide plumbing maintenance and repairs as well as clogged drain cleaning. Roto-Rooter's Albany plumbers offer residential and commercial plumbing services that customers depend on for all of their local plumbing ...
+                                    Reviews on Windows replacement in Glendale, Los Angeles, CA - Paul's Windows, American Deluxe Windows and Doors, Intex Windows, Fusion Windows and Doors, MJ'S Windows, Screen & Glass, Highland Park Glass Company, Jon's Window and Awning, Frontier...
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page8.php?p=7&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                                  <h2><a href="page8.php?p=7&t=3&l=4"   >The 10 Best Window Contractors in Glendale, CA (with Free Estimates)</a></h2>
                                   <p>
-                                    <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                                    <a class="link">https://www.thumbtack.com › CA › Glendale</a><p>
                                       <p class="summary">
-                                        Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                                        About. This company provides steel and wood window repairs and restoration services in your area. They offer custom-built replicated windows if repair is not possible. Request a quote ...
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page8.php?p=7&t=3"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
+                                      <h2><a href="page8.php?p=7&t=3&l=5"   >All West Windows & Doors. Window Replacement & Installation ...</a></h2>
                                       <p>
-                                        <a class="link">https://www.homeadvisor.com</a><p>
+                                        <a class="link">https://porch.com › Glendale Window Replacement & Installation Companies</a><p>
                                           <p class="summary">
-                                            New Lead. Project: Install, Repair or Replace Plumbing or Fixtures - For Business . Location: Albany, NY. Date: 01/04/2018. Is this an emergency?: No. Request Stage: Ready to Hire. Desired Completion Date: Timing is flexible. What kind of location is this?: Business. Comment: Need the flusher replaced in our toilet or have ...
+                                            See past project info for All West Windows & Doors including photos, cost and more. Glendale, CA - Window Replacement & Installation Company.
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page8.php?p=7&t=3"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
+                                          <h2><a href="page8.php?p=7&t=3&l=6"   >The 10 Best Window Replacement & Installation Companies in ... - Porch</a></h2>
                                           <p>
-                                            <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
+                                            <a class="link">https://porch.com › CA › Glendale</a><p>
                                               <p class="summary">
-                                                282 results - Local plumbers in Albany, NY. Compare expert Plumbers, read reviews, and find contact information - THE REAL YELLOW PAGES®
+                                                The most trusted window replacement & installation companies in Glendale, CA are on Porch. They have excellent community reviews, high BBB ratings & are backed by our $1000 quality guarantee.
                                               </p>
                                             </div>
 
