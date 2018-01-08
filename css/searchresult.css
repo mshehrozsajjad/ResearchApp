@@ -270,6 +270,11 @@ body {
 
 }
 
+.search-results h2 a:hover{
+  text-decoration: underline;
+
+}
+
 .link {
   color: #006621;
   line-height: 16px;
@@ -303,7 +308,7 @@ body {
 }
 
 .related-searches td a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: rgb(26, 13, 171);
 }
 

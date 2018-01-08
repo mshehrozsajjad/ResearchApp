@@ -10,7 +10,7 @@ require 'headerResult.php';
       <div class="top-bar">
         <div class="left-side">
           <img id="main-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/272px-Google_2015_logo.svg.png">
-          <input type="text" id="search-bar" value="Emergency, plumber, Albany" disabled>
+          <input type="text" id="search-bar" value="best chiropractor, erie" disabled>
           <img id="mic" src="https://1.bp.blogspot.com/-lINg3E20_4Y/VebwdAy_MaI/AAAAAAAAFJU/8Jg2H-3-_cc/s1600/Microphone.png">
           <div class="mag-background">
             <span id="mag"></span>
@@ -53,158 +53,145 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page6.php?p=5&t=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page6.php?p=5&t=1" >A+ Dr. Thomas Perkins- Erie PA - Chiropractic Pain Specialist‎‎</a></h2>
           <p><span class="_mB">Ad</span>
-            <a   class="link">www.plumbersnearyou.com/</a><p>
+            <a   class="link">www.lakeeriespine.com/</a><p>
               <p class="summary">
-                Enter Zip Code for Local Emergency Plumbers. Call now for Experts.
-                Trusted professionals · Call for appointment now · Fast & Reliable · Exhaustive directory
-                Services: Water heaters, Sump pumps, Septic systems, Pipe work
+                Fast Pain Relief-Advanced Chiropractic-Personalized Care- *New Patient Special
+                1005 Peninsula Dr, Erie, PA‎ - ‎Closed today · Hours
+
               </p>
             </div>
-            <div class="search-results">
-              <h2><a href="page6.php?p=5&t=1" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
-              <p><span class="_mB">Ad</span>
-                <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
-                  <p class="summary">
-                    Prompt, Professional Plumbing and Water Heater Service 24/7. $25 Off Coupon.
-                    Expert Plumbing Repairs · Certified Plumbers · 24/7 Emergency Service · Satisfaction Guaranteed
-                    Services: Drain Cleaning, Water Heater Service, Leak Detection/Repair, Sewer Services
-                  </p>
-                </div>
-                <div class="search-results">
-                  <h2><a href="page6.php?p=5&t=1" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
-                  <p><span class="_mB">Ad</span>
-                    <a   class="link">www.crisbro.com/employment/</a><p>
-                      <p class="summary">
-                        Join Crisafulli Bros. Proud to be the Best in the Region for Over 75 Years!
 
+
+            <!-- End Ads -->
+
+            <div class="card">
+              <a href="page6.php?p=5&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+              <div class="container">
+                <div class="search-results border">
+                  <h2 style="color:black;"><a href="page6.php?p=5&t=2"   >Lake Erie Spine & Injury Center</a></h2>
+                  <p>
+                    <a class="summary">Erie, PA · (814) 835-0911</a><p>
+                      <p class="summary">
+                        Open 24 hrs
                       </p>
                     </div>
-
-                    <!-- End Ads -->
-
-                    <div class="card">
-                      <a href="page6.php?p=5&t2" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
-                      <div class="container">
-                        <div class="search-results border">
-                          <h2 style="color:black;"><a href="page6.php?p=5&t=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
-                          <p>
-                            <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
-                              <p class="summary">
-                                Open 24 hrs
-                              </p>
-                        </div>
-                        <div class="search-results border">
-                          <h2><a href="page6.php?p=5&t=2"   >Roto-Rooter Plumbing & Drain Services</a></h2>
-                          <p>
-                            <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
-                              <p class="summary">
-                              Open 24 hrs
-                              </p>
-                            </div>
-                            <div class="search-results border">
-                              <h2><a href="page6.php?p=5&t=2"   >Empire State Plumbing, Inc.</a></h2>
-                              <p>
-                                <a class="summary">
-260 Osborne Rd · +1 518-482-4205</a><p>
-                                  <p class="summary">
-                                  Open 24 hrs
-                                  </p>
-                            </div>
-                      </div>
-                    </div>
-                    <!-- Organic Links -->
-                    <div class="search-results">
-                      <h2><a href="page6.php?p=5&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                    <div class="search-results border">
+                      <h2><a href="page6.php?p=5&t=2"   >Iadeluca Chiropractic Center</a></h2>
                       <p>
-                        <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
+                        <a class="summary">Erie, PA, USA · +1 814-459-2580</a><p>
                           <p class="summary">
-                            Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
+                            Open 24 hrs
                           </p>
                         </div>
-                        <div class="search-results">
-                          <h2><a href="page6.php?p=5&t=3"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                        <div class="search-results border">
+                          <h2><a href="page6.php?p=5&t=2"   >Chiropractic Solutions</a></h2>
                           <p>
-                            <a class="link">https://www.rotorooter.com</a><p>
-                              <p class="summary">
-                                Trusted and recommended since 1935, Roto-Rooter is the premier provider of plumbing and drain cleaning services in Albany, NY. Homeowners and businesses depend on Roto-Rooter 24 hours a day, 7 days a week. Our specialty is emergency services. Your call will be answered by a trained customer service  ...
-                              </p>
+                            <a class="summary">
+                              Erie, PA, USA · +1 814-825-1102</a><p>
+                                <p class="summary">
+                                  Open 24 hrs
+                                </p>
+                              </div>
                             </div>
-                            <div class="search-results">
-                              <h2><a href="page6.php?p=5&t=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
-                              </a></h2>
-                              <p>
-                                <a class="link">https://www.rotorooter.com</a><p>
-                                  <p class="summary">
-                                    Albany Plumber, Providing Emergency Plumbing and Drain Service. Roto-Rooter plumbers in Albany provide plumbing maintenance and repairs as well as clogged drain cleaning. Roto-Rooter's Albany plumbers offer residential and commercial plumbing services that customers depend on for all of their local plumbing ...
-                                  </p>
-                                </div>
-                                <div class="search-results">
-                                  <h2><a href="page6.php?p=5&t=3"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
-                                  <p>
-                                    <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
-                                      <p class="summary">
-                                        Plumbing Service and Repair for Albany NY. Whether you need a faucet replaced, your pipes unthawed or a sump pump installed to keep your basement dry, our Albany plumbing repair and service contractors can help.
-                                      </p>
-                                    </div>
-                                    <div class="search-results">
-                                      <h2><a href="page6.php?p=5&t=3"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
-                                      <p>
-                                        <a class="link">https://www.homeadvisor.com</a><p>
-                                          <p class="summary">
-                                            New Lead. Project: Install, Repair or Replace Plumbing or Fixtures - For Business . Location: Albany, NY. Date: 01/04/2018. Is this an emergency?: No. Request Stage: Ready to Hire. Desired Completion Date: Timing is flexible. What kind of location is this?: Business. Comment: Need the flusher replaced in our toilet or have ...
-                                          </p>
-                                        </div>
-                                        <div class="search-results">
-                                          <h2><a href="page6.php?p=5&t=3"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
-                                          <p>
-                                            <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
-                                              <p class="summary">
-                                                282 results - Local plumbers in Albany, NY. Compare expert Plumbers, read reviews, and find contact information - THE REAL YELLOW PAGES®
-                                              </p>
-                                            </div>
+                          </div>
+                          <!-- Organic Links -->
+                          <div class="search-results">
+                            <h2><a href="page6.php?p=5&t=3"   >The Best 10 Chiropractors in Erie, PA - Last Updated January 2018 ...</a></h2>
+                            <p>
+                              <a class="link">https://www.yelp.com</a><p>
+                                <p class="summary">
+                                  adeluca Chiropractic Center. 3 reviews. Chiropractors. Lake Erie Spine & Injury Center. 6 reviews. Krauza Family Chiropractic. 1 review. Chiropractic Fitness. 2 reviews. Healthways. 1 review. Nash Trevor P DC. 1 review. Cassa Family Chiropractic. Chiropractors. Chiropractic Solutions. 1 review.
+                                </p>
+                              </div>
+                              <div class="search-results">
+                                <h2><a href="page6.php?p=5&t=3"   >
+                                Best Chiropractors in Erie, PA - Chiropractors Reviews & Ratings ...
+                                </a></h2>
+                                <p>
+                                  <a class="link">https://www.ratemds.com/best-doctors/pa/erie/chiropractor/</a><p>
+                                    <p class="summary">
+                                      Dr. John D. HUFFMAN. Chiropractor. 7 reviews. Dr. Craig C. Costello. Dr. Mark C. Weber. Chiropractor. 5 reviews. Dr. Jack D. Jamison. Chiropractor. 7 reviews. Dr. Eric N. Christie. Chiropractor. 3 reviews. Dr. Brandon J. Saraceno. Chiropractor. 3 reviews. Dr. Troy Zacherl. Chiropractor. Dr. Trevor P. Nash.
+                                    </p>
+                                  </div>
+                                  <div class="search-results">
+                                    <h2><a href="page6.php?p=5&t=3"   >
+                                      Chiropractic Solutions | Erie Chiropractor Millcreek and Harborcreek PA
+                                    </a></h2>
+                                    <p>
+                                      <a class="link">https://www.bestchiropractorerie.com/</a><p>
+                                        <p class="summary">
+                                          Visit Chiropractic Solutions and Erie Chiropractor, Dr. Troy Zacherl Discover how a healthy spine and nervous system is the key to true wellness for Millcreek and Harborcreek residents. (814) 825-1102.
 
-                                            <div class="related-searches">
-                                              <h3>Searches related to ipsum lorem</h3>
-                                              <table>
-                                                <tr>
-                                                  <td><a  >ipsum lorem <strong>generator</strong></a></td>
-                                                  <td><a  >ipsum lorem <strong>hipster</strong></a></td>
-                                                </tr>
-                                                <tr>
-                                                  <td><a  >ipsum lorem <strong>bacon</strong></a></td>
-                                                  <td><a  >ipsum lorem <strong>word</strong></a></td>
-                                                </tr>
-                                                <tr>
-                                                  <td><a  >ipsum lorem <strong>meaning</strong></a></td>
-                                                  <td><a  >ipsum lorem <strong>samuel l jackson</strong></a></td>
-                                                </tr>
-                                                <tr>
-                                                  <td><a  >ipsum lorem <strong>generator funny</strong></a></td>
-                                                  <td><a  >ipsum lorem <strong>dolor english translation</strong></a></td>
-                                                </tr>
-                                              </table>
-                                            </div>
+                                        </p>
+                                      </div>
+                                      <div class="search-results">
+                                        <h2><a href="page6.php?p=5&t=3"   >Erie Chiropractor, Erie PA | Krauza Family Chiropractic (814) 898-2346</a></h2>
+                                        <p>
+                                          <a class="link">https://www.krauzachiro.com</a><p>
+                                            <p class="summary">
+                                              Choose Krauza Family Chiropractic to help resolve those pesky aches and pains. Your Erie chiropractor, Dr. Steven Krauza, is ready to help. Learn more today: ( 814) 898-2346.
+                                            </p>
                                           </div>
-                                          <div class="footer">
-                                            <div id="location"></div><p>Tysons, VA - From your Internet address - <span id="location-search">Use precise location - Learn more</span></p>
-                                            <ul>
-                                              <li><a >Help</a></li>
-                                              <li><a >Send feedback</a></li>
-                                              <li><a >Privacy</a></li>
-                                              <li><a >Terms</a></li>
-                                            </ul>
-                                          </div>
-                                        </div>
-                                      </section>
+                                          <div class="search-results">
+                                            <h2><a href="page6.php?p=5&t=3"   >Top 2 Best Erie PA Chiropractors | Angie's List</a></h2>
+                                            <p>
+                                              <a class="link">https://www.angieslist.com</a><p>
+                                                <p class="summary">
+                                                  Join for free! Read real reviews and see ratings for Erie, PA Chiropractors near you to help you pick the right pro Chiropractor.
+                                                </p>
+                                              </div>
+                                              <div class="search-results">
+                                                <h2><a href="page6.php?p=5&t=3"   >Chiropractor Erie PA | Neck & Back Center of Erie
+</a></h2>
+                                                <p>
+                                                  <a class="link">https://www.eriechiroclinic.com</a><p>
+                                                    <p class="summary">
+                                                      Husband-and-wife Chiropractors Erie offer the best in pain relief and physical therapy modalities. We accept insurance, walk-ins are welcome! Call now for an appt!
+                                                    </p>
+                                                  </div>
+
+                                                  <div class="related-searches">
+                                                    <h3>Searches related to ipsum lorem</h3>
+                                                    <table>
+                                                      <tr>
+                                                        <td><a  >ipsum lorem <strong>generator</strong></a></td>
+                                                        <td><a  >ipsum lorem <strong>hipster</strong></a></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td><a  >ipsum lorem <strong>bacon</strong></a></td>
+                                                        <td><a  >ipsum lorem <strong>word</strong></a></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td><a  >ipsum lorem <strong>meaning</strong></a></td>
+                                                        <td><a  >ipsum lorem <strong>samuel l jackson</strong></a></td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td><a  >ipsum lorem <strong>generator funny</strong></a></td>
+                                                        <td><a  >ipsum lorem <strong>dolor english translation</strong></a></td>
+                                                      </tr>
+                                                    </table>
+                                                  </div>
+                                                </div>
+                                                <div class="footer">
+                                                  <div id="location"></div><p>Tysons, VA - From your Internet address - <span id="location-search">Use precise location - Learn more</span></p>
+                                                  <ul>
+                                                    <li><a >Help</a></li>
+                                                    <li><a >Send feedback</a></li>
+                                                    <li><a >Privacy</a></li>
+                                                    <li><a >Terms</a></li>
+                                                  </ul>
+                                                </div>
+                                              </div>
+                                            </section>
 
 
-                                      <!-- Javascript files-->
-                                      <script src="js/jquery-3.2.1.min.js"></script>
-                                      <script src="js/popper.min.js"> </script>
-                                      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-                                      <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+                                            <!-- Javascript files-->
+                                            <script src="js/jquery-3.2.1.min.js"></script>
+                                            <script src="js/popper.min.js"> </script>
+                                            <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+                                            <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
 
-                                    </body>
-                                    </html>
+                                          </body>
+                                          </html>
