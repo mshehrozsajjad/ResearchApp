@@ -180,13 +180,118 @@ require_once  '../config/pass.php';
           <div class="row">
             <div class="col-sm-12 my-auto">
 
-              <canvas class="myBarChart1" width="100" height="15"></canvas>
+              <canvas class="p3myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
-              <canvas class="myBarChart2" width="100" height="15"></canvas>
+              <canvas class="p3myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
-              <canvas class="myBarChart3" width="100" height="15"></canvas>
+              <canvas class="p3myBarChart3" width="100" height="15"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Page 5</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12 my-auto">
+
+              <canvas class="p5myBarChart1" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p5myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p5myBarChart3" width="100" height="15"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Page 7</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12 my-auto">
+
+              <canvas class="p7myBarChart1" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p7myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p7myBarChart3" width="100" height="15"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Page 9</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12 my-auto">
+
+              <canvas class="p9myBarChart1" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p9myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p9myBarChart3" width="100" height="15"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Page 11</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12 my-auto">
+
+              <canvas class="p11myBarChart1" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p11myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p11myBarChart3" width="100" height="15"></canvas>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="card-header">
+          <i class="fa fa-area-chart"></i> Page 13</div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-12 my-auto">
+
+              <canvas class="p13myBarChart1" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p13myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="p13myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
 
@@ -243,8 +348,8 @@ require_once  '../config/pass.php';
 
     <script>
 
-    // -- Bar Chart Example
-    var ctx = $(".myBarChart1");
+    // --Page 3 Bar Chart Example
+    var ctx = $(".p3myBarChart1");
     <?php
     $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 1 GROUP BY `link_id`;");
     $stmt->execute();
@@ -309,34 +414,1121 @@ require_once  '../config/pass.php';
 
     });
     <?php  }  ?>
-    var ctx = $(".myBarChart2");
+    var ctx = $(".p3myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
     var myLineChart = new Chart(ctx, {
+
       type: 'bar',
       data: {
-        labels: ["January", "February", "March", "April", "May", "June"],
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
         datasets: [{
-          label: "Organic Clicks",
+          label: "Map Clicks",
           backgroundColor: "#ffc107",
           borderColor: "#ffc107",
-          data: [4215, 5312, 6251, 7841, 9821, 14984],
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
         }],
       },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
 
     });
-    var ctx = $(".myBarChart3");
+    <?php  }  ?>
+    var ctx = $(".p3myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
     var myLineChart = new Chart(ctx, {
+
       type: 'bar',
       data: {
-        labels: ["January", "February", "March", "April", "May", "June"],
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
         datasets: [{
           label: "Organic Clicks",
           backgroundColor: "#28a745",
           borderColor: "#28a745",
-          data: [4215, 5312, 6251, 7841, 9821, 14984],
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
         }],
       },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
 
     });
+    <?php  }  ?>
+
+    // --Page 5 Bar Chart Example
+    var ctx = $(".p5myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Ad Clicks",
+          backgroundColor: "rgba(2,117,216,1)",
+          borderColor: "rgba(2,117,216,1)",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+     var ctx = $(".p5myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Map Clicks",
+          backgroundColor: "#ffc107",
+          borderColor: "#ffc107",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+    var ctx = $(".p5myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 5 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+
+     // --Page 7 Bar Chart Example
+    var ctx = $(".p7myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Ad Clicks",
+          backgroundColor: "rgba(2,117,216,1)",
+          borderColor: "rgba(2,117,216,1)",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+     var ctx = $(".p7myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Map Clicks",
+          backgroundColor: "#ffc107",
+          borderColor: "#ffc107",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+    var ctx = $(".p7myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 7 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+
+     // --Page 9 Bar Chart Example
+    var ctx = $(".p9myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Ad Clicks",
+          backgroundColor: "rgba(2,117,216,1)",
+          borderColor: "rgba(2,117,216,1)",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+     var ctx = $(".p9myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Map Clicks",
+          backgroundColor: "#ffc107",
+          borderColor: "#ffc107",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+    var ctx = $(".p9myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 9 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+
+ // --Page 11 Bar Chart Example
+    var ctx = $(".p11myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Ad Clicks",
+          backgroundColor: "rgba(2,117,216,1)",
+          borderColor: "rgba(2,117,216,1)",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+     var ctx = $(".p11myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Map Clicks",
+          backgroundColor: "#ffc107",
+          borderColor: "#ffc107",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+    var ctx = $(".p11myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 11 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+
+ // --Page 13 Bar Chart Example
+    var ctx = $(".p13myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Ad Clicks",
+          backgroundColor: "rgba(2,117,216,1)",
+          borderColor: "rgba(2,117,216,1)",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+     var ctx = $(".p13myBarChart2");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 2 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 2 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Map Clicks",
+          backgroundColor: "#ffc107",
+          borderColor: "#ffc107",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
+    var ctx = $(".p13myBarChart3");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 3 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
+    var myLineChart = new Chart(ctx, {
+
+      type: 'bar',
+      data: {
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 13 and `type_id` = 3 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
+        }],
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
+
+    });
+    <?php  }  ?>
 
     </script>
   </div>
