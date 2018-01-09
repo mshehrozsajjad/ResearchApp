@@ -7,6 +7,8 @@ $DB_user = "root";
 $DB_pass = "";
 $DB_name = "research";
 
+//Global Settings
+$pass = 'admin@123';
 $allowDuplicate = true;
 
 $myIP = '000.000.000.000';
