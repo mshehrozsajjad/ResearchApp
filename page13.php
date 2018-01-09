@@ -79,7 +79,7 @@ require 'headerResult.php';
                       </p>
                     </div>
 
-                    <!-- End Ads 
+                    <!-- End Ads
 
                     <div class="card">
                       <a href="page14.php?p=13&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
@@ -176,14 +176,6 @@ require 'headerResult.php';
                                             <a class="link">https://www.indeed.lu/cmp/Ymca/reviews?fcountry=US&start...</a><p>
                                               <p class="summary">
                                                13.084 Bewertungen von YMCA Arbeitnehmern zu Unternehmenskultur, Gehälter, Sonderleistungen, Work-Life-Balance, Management, Arbeitsplatzsicherheit und weiteres bei YMCA.
-                                              </p>
-                                            </div>
-                                            <div class="search-results">
-                                          <h2><a href="page14.php?p=13&t=3&l=9"   >Working at YMCA: 16.109 Reviews | Indeed.lu</a></h2>
-                                          <p>
-                                            <a class="link">https://www.indeed.lu/cmp/Ymca/reviews?fcountry=US...en</a><p>
-                                              <p class="summary">
-                                                16.109 Bewertungen von YMCA Arbeitnehmern zu Unternehmenskultur, Gehälter, Sonderleistungen, Work-Life-Balance, Management, Arbeitsplatzsicherheit und weiteres bei YMCA.
                                               </p>
                                             </div>
 
