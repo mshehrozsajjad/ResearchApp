@@ -180,10 +180,13 @@ require_once  '../config/pass.php';
           <div class="row">
             <div class="col-sm-12 my-auto">
 
-              <canvas class="myBarChart" width="100" height="30"></canvas>
+              <canvas class="myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
-              <canvas class="myBarChart1" width="100" height="30"></canvas>
+              <canvas class="myBarChart2" width="100" height="15"></canvas>
+            </div>
+            <div class="col-sm-12 my-auto">
+              <canvas class="myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
 
@@ -241,21 +244,72 @@ require_once  '../config/pass.php';
     <script>
 
     // -- Bar Chart Example
-    var ctx = $(".myBarChart");
+    var ctx = $(".myBarChart1");
+    <?php
+    $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 1 GROUP BY `link_id`;");
+    $stmt->execute();
+
+    if($stmt->rowCount()>0) {
+      //if Ip exsist in DB
+
+      ?>
     var myLineChart = new Chart(ctx, {
+
       type: 'bar',
       data: {
-        labels: ["January", "February", "March", "April", "May", "June"],
+
+        labels: [ <?php
+        $result=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo ($result['link_id']);
+        while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+        {
+          echo ' , ';
+          echo ($result['link_id']);
+
+
+        } }
+        $stmt = $DB_con->prepare("SELECT `link_id`, COUNT(`user_id` ) as count FROM `clicks` WHERE `page` = 3 and `type_id` = 1 GROUP BY `link_id`;");
+        $stmt->execute();
+
+        if($stmt->rowCount()>0) {
+        ?>],
         datasets: [{
           label: "Ad Clicks",
           backgroundColor: "rgba(2,117,216,1)",
           borderColor: "rgba(2,117,216,1)",
-          data: [4215, 5312, 6251, 7841, 9821, 14984],
+          data: [<?php
+          $result=$stmt->fetch(PDO::FETCH_ASSOC);
+          echo ($result['count']);
+          while($result=$stmt->fetch(PDO::FETCH_ASSOC))
+          {
+            echo ' , ';
+            echo ($result['count']);
+
+
+          }  ?>],
         }],
       },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              min: 0,
+
+
+            },
+            gridLines: {
+              color: "rgba(0, 0, 0, .125)",
+            }
+          }],
+        },
+        legend: {
+          display: false
+        }
+      }
 
     });
-    var ctx = $(".myBarChart1");
+    <?php  }  ?>
+    var ctx = $(".myBarChart2");
     var myLineChart = new Chart(ctx, {
       type: 'bar',
       data: {
@@ -264,6 +318,20 @@ require_once  '../config/pass.php';
           label: "Organic Clicks",
           backgroundColor: "#ffc107",
           borderColor: "#ffc107",
+          data: [4215, 5312, 6251, 7841, 9821, 14984],
+        }],
+      },
+
+    });
+    var ctx = $(".myBarChart3");
+    var myLineChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ["January", "February", "March", "April", "May", "June"],
+        datasets: [{
+          label: "Organic Clicks",
+          backgroundColor: "#28a745",
+          borderColor: "#28a745",
           data: [4215, 5312, 6251, 7841, 9821, 14984],
         }],
       },
