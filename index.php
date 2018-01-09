@@ -9,6 +9,9 @@ require 'header.php';
       <div class="container">
         <div class="row block">
           <div class="col-lg-12">
+            <ul class="breadcrumb">
+              <li class="breadcrumb-item"><a >1/14</a></li>
+            </ul>
             <h1>Welcome</h1>
             <p class="lead">Thank you for taking the time to help me with some research. I’m trying to get an idea of where people click on a page.
               All of that information is being recorded but you’ll note that at no point will we ask you for your personal information.

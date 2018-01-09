@@ -4,11 +4,12 @@ session_start();
 
 $DB_host = "localhost";
 $DB_user = "root";
-$DB_pass = "seecs";
+$DB_pass = "";
 $DB_name = "research";
 
 //Global Settings
-$pass = 'admin@123';
+$pass = 'upwork@123';
+
 $allowDuplicate = true;
 
 $myIP = '000.000.000.000';

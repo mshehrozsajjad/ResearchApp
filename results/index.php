@@ -41,52 +41,15 @@ require_once  '../config/pass.php';
       <ul class="navbar-nav ml-auto">
         <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Dashboard">
-          <a class="nav-link" href="index.html">
+          <a class="nav-link" href="index.php">
             <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">Dashboard</span>
           </a>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Charts">
-          <a class="nav-link" href="charts.html">
-            <i class="fa fa-fw fa-area-chart"></i>
-            <span class="nav-link-text">Charts</span>
-          </a>
-        </li>
 
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Components">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
-            <i class="fa fa-fw fa-wrench"></i>
-            <span class="nav-link-text">Components</span>
-          </a>
-          <ul class="sidenav-second-level collapse" id="collapseComponents">
-            <li>
-              <a href="navbar.html">Navbar</a>
-            </li>
-            <li>
-              <a href="cards.html">Cards</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Example Pages">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
-            <i class="fa fa-fw fa-file"></i>
-            <span class="nav-link-text">Example Pages</span>
-          </a>
-          <ul class="sidenav-second-level collapse" id="collapseExamplePages">
-            <li>
-              <a href="login.html">Login Page</a>
-            </li>
-            <li>
-              <a href="register.html">Registration Page</a>
-            </li>
-            <li>
-              <a href="forgot-password.html">Forgot Password Page</a>
-            </li>
-            <li>
-              <a href="blank.html">Blank Page</a>
-            </li>
-          </ul>
-        </li>
+
+
+
 
       </ul>
         <li class="nav-item">
@@ -111,28 +74,23 @@ require_once  '../config/pass.php';
           <div class="card text-white bg-primary o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
-                <i class="fa fa-fw fa-comments"></i>
+                <i class="fa fa-fw fa-hand-pointer-o"></i>
               </div>
-              <div class="mr-5">26 New Messages!</div>
+              <div class="mr-5"><?php echo $totalClick; ?> Total clicks!</div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="#">
-              <span class="float-left">View Details</span>
-              <span class="float-right">
-                <i class="fa fa-angle-right"></i>
-              </span>
-            </a>
+
           </div>
         </div>
         <div class="col-xl-3 col-sm-6 mb-3">
           <div class="card text-white bg-warning o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
-                <i class="fa fa-fw fa-list"></i>
+                <i class="fa fa-fw fa-camera"></i>
               </div>
-              <div class="mr-5">11 New Tasks!</div>
+              <div class="mr-5">Save Screenshot!</div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="#">
-              <span class="float-left">View Details</span>
+            <a class="card-footer text-white clearfix small z-1" href="JavaScript:void(0);" id="takeS" >
+              <span class="float-left">Save New!</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
               </span>
@@ -143,28 +101,22 @@ require_once  '../config/pass.php';
           <div class="card text-white bg-success o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
-                <i class="fa fa-fw fa-shopping-cart"></i>
+                <i class="fa fa-fw fa-users"></i>
               </div>
-              <div class="mr-5">123 New Orders!</div>
+              <div class="mr-5"><?php echo $totalResponse; ?> Visitors!</div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="#">
-              <span class="float-left">View Details</span>
-              <span class="float-right">
-                <i class="fa fa-angle-right"></i>
-              </span>
-            </a>
           </div>
         </div>
         <div class="col-xl-3 col-sm-6 mb-3">
           <div class="card text-white bg-danger o-hidden h-100">
             <div class="card-body">
               <div class="card-body-icon">
-                <i class="fa fa-fw fa-support"></i>
+                <i class="fa fa-fw fa-trash"></i>
               </div>
-              <div class="mr-5">13 New Tickets!</div>
+              <div class="mr-5">Reset Form</div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="#">
-              <span class="float-left">View Details</span>
+            <a class="card-footer text-white clearfix small z-1"  data-toggle="modal" data-target="#deleteM">
+              <span class="float-left">Delete all data</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
               </span>
@@ -179,13 +131,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+              Ads Clicks
               <canvas class="p3myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p3myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Organic Clicks
               <canvas class="p3myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -200,13 +154,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+                Ads Clicks
               <canvas class="p5myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p5myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+                Organic Clicks
               <canvas class="p5myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -221,13 +177,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+              Ads Clicks
               <canvas class="p7myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p7myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Organic Clicks
               <canvas class="p7myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -242,13 +200,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+              Ads Clicks
               <canvas class="p9myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p9myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Organic Clicks
               <canvas class="p9myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -263,13 +223,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+                Ads Clicks
               <canvas class="p11myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p11myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Organic Clicks
               <canvas class="p11myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -284,13 +246,15 @@ require_once  '../config/pass.php';
         <div class="card-body">
           <div class="row">
             <div class="col-sm-12 my-auto">
-
+                Ads Clicks
               <canvas class="p13myBarChart1" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Map Clicks
               <canvas class="p13myBarChart2" width="100" height="15"></canvas>
             </div>
             <div class="col-sm-12 my-auto">
+              Organic Clicks
               <canvas class="p13myBarChart3" width="100" height="15"></canvas>
             </div>
           </div>
@@ -305,7 +269,7 @@ require_once  '../config/pass.php';
     <footer class="sticky-footer">
       <div class="container">
         <div class="text-center">
-          <small>Copyright © Your Website 2017</small>
+          <small>Copyright © Gareth</small>
         </div>
       </div>
     </footer>
@@ -326,7 +290,25 @@ require_once  '../config/pass.php';
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="logout.php">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="deleteM" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Delete?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Delete" below if you are ready to delete your data.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-primary" href="delete.php">Delete</a>
           </div>
         </div>
       </div>
@@ -1531,6 +1513,43 @@ require_once  '../config/pass.php';
     <?php  }  ?>
 
     </script>
+    <script type="text/javascript" src="js/html2canvas.js"></script>
+    <script type="text/javascript" src="js/filesaver.min.js"></script>
+    <script>
+    $(document).ready(function() {
+
+      $('#takeS').click(function(){ take_screenshot(); });
+
+
+    function take_screenshot()
+    {
+     html2canvas(document.body).then(function(canvas) {
+      // onrendered: function(canvas)
+      // {
+      //var img = canvas.toDataURL();
+      canvas.toBlob(function(blob) {
+       // Generate file download
+       window.saveAs(blob, Date()+".png");
+   });
+      // $.post("screenshot.php", {data: img}, function (file){
+      //    window.location.href =  "screenshot.php?file="+ file
+      // });
+      // window.open(img , "_blank");
+        // document.body.appendChild(canvas);
+        // cp(canvas);
+
+      // }
+     });
+   }
+
+   function cp(canvas){
+     var img = canvas.toDataURL();
+     $.post("screenshot.php", {data: img}, function (file){
+        window.location.href =  "screenshot.php?file="+ file
+     });
+   }
+ });
+</script>
   </div>
 </body>
 

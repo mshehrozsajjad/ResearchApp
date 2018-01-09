@@ -31,7 +31,7 @@ require_once  '../config/db.php';
             <input class="form-control" id="pass" name="pass" type="password" placeholder="Password">
           </div>
 
-          <a class="btn btn-primary btn-block" href="index.html">Enter</a>
+          <button class="btn btn-primary btn-block" type="submit" >Enter</button>
         </form>
 
       </div>
