@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 
 <?php
 require 'header.php';
@@ -9,8 +7,17 @@ require 'header.php';
     <div class="container">
       <div class="row block">
         <div class="col-lg-12">
-          <h1>Next Challenge</h1>
-          <p class="lead">You got tired of that old house so moved to Erie, Pennsylvania. You’ve been shovelling snow in Erie, and you throw your back out so you key in</p>
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a >4/14</a></li>
+          </ul>
+            <p class="lead">
+              Next Challenge
+            </p>
+          <h4 style="margin-bottom:30px;">
+            You got tired of that old house so moved to Erie, Pennsylvania. You’ve been shovelling snow in Erie, and you throw your back out
+            so you key in
+          </h4>
+
 
           <div class="form-holder">
             <div class="container ">
@@ -38,7 +45,7 @@ require 'header.php';
             </div>
 
           </div>
-          <h3 style="margin-top:30px;">
+          <h3 class="lead" style="margin-top:30px;">
             Hit Go!
           </h3>
 

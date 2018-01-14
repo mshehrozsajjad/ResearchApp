@@ -1,8 +1,12 @@
 <?php
-if(isset($_GET['p']) && isset($_GET['t']) ){
+
+
+if(isset($_GET['p']) && isset($_GET['t']) && isset($_GET['l'])){
   $page = $_GET['p'];
   $typeOfClick = $_GET['t'];
   $linkId = $_GET['l'];
+
+
 
   try
   {
@@ -13,11 +17,12 @@ if(isset($_GET['p']) && isset($_GET['t']) ){
     $stmt->bindparam(":lid", $linkId);
     $stmt->execute();
 
-    //echo "Hogya";
+    
   }
   catch(PDOException $e)
   {
     //echo $e->getMessage();
+
   }
 
 

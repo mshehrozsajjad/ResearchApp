@@ -32,12 +32,7 @@ require 'header.php';
               <li>
                 Read everything carefully, there’s not a lot to read but it’s important that you fully understand it.
               </li>
-              <li>
-               	If you care about the results then send me an email requesting a copy of the article once it’s written. My email is gareth@tallcloudmarketing.com .
-              </li>
-              <li>
-              	Alternatively, just go to our Facebook page, it will be posted there <a href="https://www.facebook.com/tallcloudmarketing/"> Tall Cloud Marketing</a> .
-              </li>
+              
             </ul>
             <p class="lead">
               Whatever you click on when it comes to the search results, you will always go through to the same page as every link on this website points to the next page. Please don’t let that affect how you would otherwise click on the page. If you don’t like clicking on Adwords remember that in this test, if you don’t like scrolling down a web page don’t start doing it now, that kind of thing.

@@ -53,7 +53,7 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page12.php?p=11&t=1&l=1" >Personal Training Miami - One-To-One Personal Training - erafit.com‎</a></h2>
+          <h2><a  href="page12.php?p=11&t=1&l=1&" >Personal Training Miami - One-To-One Personal Training - erafit.com‎</a></h2>
           <p><span class="_mB">Ad</span>
             <a   class="link">www.erafit.com/‎</a><p>
               <p class="summary">
@@ -62,7 +62,7 @@ require 'headerResult.php';
               </p>
             </div>
             <div class="search-results">
-              <h2><a href="page12.php?p=11&t=1&l=2" >SVETNESS Personal Trainers - Miami FL - svetness.com‎</a></h2>
+              <h2><a href="page12.php?p=11&t=1&l=2&" >SVETNESS Personal Trainers - Miami FL - svetness.com‎</a></h2>
               <p><span class="_mB">Ad</span>
                 <a   class="link">www.svetness.com/‎‎</a><p>
                   <p class="summary">
@@ -72,7 +72,7 @@ require 'headerResult.php';
                   </p>
                 <!--</div>
                 <div class="search-results">
-                  <h2><a href="page12.php?p=11&t=1&l=3" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page12.php?p=11&t=1&l=3&" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
@@ -84,10 +84,12 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page12.php?p=11&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page12.php?p=11&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page12.php?p=11&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page12.php?p=11&t=2&l=2&"   >
+                            T-Nice Personal Trainer in Miami
+                          </a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -95,15 +97,17 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page12.php?p=11&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page12.php?p=11&t=2&l=3&"   >
+                            Peak Physique & Performance - Personal Train...</a></h2>
                           <p>
-                            <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
+                            <a class="summary">350 NE 24th St #102 · +1 305-674-8435</a><p>
                               <p class="summary">
                               Open 24 hrs
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page12.php?p=11&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page12.php?p=11&t=2&l=4&"   >
+                                Primal Fit 360 Personal Training</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -115,7 +119,7 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page12.php?p=11&t=3&l=1"   >Miami Personal Trainers | Miami, Florida - YourTrainer.com</a></h2>
+                      <h2><a href="page12.php?p=11&t=3&l=1&"   >Miami Personal Trainers | Miami, Florida - YourTrainer.com</a></h2>
                       <p>
                         <a class="link">https://yourtrainer.com/find/personal-training/florida/miami</a><p>
                           <p class="summary">
@@ -123,7 +127,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page12.php?p=11&t=3&l=2"   >Miami Personal Trainer - Personal Trainers in Miami, FL</a></h2>
+                          <h2><a href="page12.php?p=11&t=3&l=2&"   >Miami Personal Trainer - Personal Trainers in Miami, FL</a></h2>
                           <p>
                             <a class="link">https://www.ideafit.com/find-personal-trainer/fl/miami</a><p>
                               <p class="summary">
@@ -131,7 +135,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page12.php?p=11&t=3&l=3"   >The 10 Best Personal Trainers in Miami, FL (with Free Estimates)
+                              <h2><a href="page12.php?p=11&t=3&l=3&"   >The 10 Best Personal Trainers in Miami, FL (with Free Estimates)
                               </a></h2>
                               <p>
                                 <a class="link">https://www.thumbtack.com › FL › Miami</a><p>
@@ -140,7 +144,7 @@ require 'headerResult.php';
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page12.php?p=11&t=3&l=4"   >Best Personal trainer in Miami, FL - Yelp</a></h2>
+                                  <h2><a href="page12.php?p=11&t=3&l=4&"   >Best Personal trainer in Miami, FL - Yelp</a></h2>
                                   <p>
                                     <a class="link">https://www.yelp.com/search?find_desc=Personal+Trainer&find_loc=Miami%2C...</a><p>
                                       <p class="summary">
@@ -148,7 +152,7 @@ require 'headerResult.php';
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page12.php?p=11&t=3&l=5"   >Miami Personal Trainer - Deals in Miami, FL | Groupon</a></h2>
+                                      <h2><a href="page12.php?p=11&t=3&l=5&"   >Miami Personal Trainer - Deals in Miami, FL | Groupon</a></h2>
                                       <p>
                                         <a class="link">https://www.groupon.com › Local › Florida › Miami › Health & Fitness › Gyms</a><p>
                                           <p class="summary">
@@ -156,7 +160,7 @@ require 'headerResult.php';
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page12.php?p=11&t=3&l=6"   >Personal Trainer Jobs, Employment in Miami, FL | Indeed.com</a></h2>
+                                          <h2><a href="page12.php?p=11&t=3&l=6&"   >Personal Trainer Jobs, Employment in Miami, FL | Indeed.com</a></h2>
                                           <p>
                                             <a class="link">https://www.indeed.com/q-Personal-Trainer-l-Miami,-FL-jobs.html</a><p>
                                               <p class="summary">

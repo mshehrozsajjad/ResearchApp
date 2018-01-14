@@ -53,7 +53,7 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page4.php?p=3&t=1&l=1" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
+          <h2><a  href="page4.php?p=3&t=1&l=1&" >24Hr Emergency Plumbers - Same Day Repair & Service‎</a></h2>
           <p><span class="_mB">Ad</span>
             <a   class="link">www.plumbersnearyou.com/</a><p>
               <p class="summary">
@@ -63,7 +63,7 @@ require 'headerResult.php';
               </p>
             </div>
             <div class="search-results">
-              <h2><a href="page4.php?p=3&t=1&l=2" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+              <h2><a href="page4.php?p=3&t=1&l=2&" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
               <p><span class="_mB">Ad</span>
                 <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
                   <p class="summary">
@@ -73,7 +73,7 @@ require 'headerResult.php';
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page4.php?p=3&t=1&l=3" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page4.php?p=3&t=1&l=3&" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
@@ -85,10 +85,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page4.php?p=3&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page4.php?p=3&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page4.php?p=3&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page4.php?p=3&t=2&l=2&"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +96,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page4.php?p=3&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page4.php?p=3&t=2&l=3&"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +104,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page4.php?p=3&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page4.php?p=3&t=2&l=4&"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
@@ -116,7 +116,7 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page4.php?p=3&t=3&l=1"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                      <h2><a href="page4.php?p=3&t=3&l=1&"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
                       <p>
                         <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
                           <p class="summary">
@@ -124,7 +124,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page4.php?p=3&t=3&l=2"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page4.php?p=3&t=3&l=2&"   >Albany, NY Plumber | Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="link">https://www.rotorooter.com</a><p>
                               <p class="summary">
@@ -132,7 +132,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page4.php?p=3&t=3&l=3"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
+                              <h2><a href="page4.php?p=3&t=3&l=3&"   >Albany, OR Plumber | Roto-Rooter Plumbing & Drain Services
                               </a></h2>
                               <p>
                                 <a class="link">https://www.rotorooter.com</a><p>
@@ -141,7 +141,7 @@ require 'headerResult.php';
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page4.php?p=3&t=3&l=4"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
+                                  <h2><a href="page4.php?p=3&t=3&l=4&"   >Albany Plumbing Service & Repair - (24/7 Emergency Plumbing ...</a></h2>
                                   <p>
                                     <a class="link">www.crisbro.com/plumbing-service-repair.php</a><p>
                                       <p class="summary">
@@ -149,7 +149,7 @@ require 'headerResult.php';
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page4.php?p=3&t=3&l=5"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
+                                      <h2><a href="page4.php?p=3&t=3&l=5&"   >25 Best Plumbers - Albany NY - HomeAdvisor</a></h2>
                                       <p>
                                         <a class="link">https://www.homeadvisor.com</a><p>
                                           <p class="summary">
@@ -157,7 +157,7 @@ require 'headerResult.php';
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page4.php?p=3&t=3&l=6"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
+                                          <h2><a href="page4.php?p=3&t=3&l=6&"   >Plumbers & Emergency Plumbing Services in Albany, NY - YP.com</a></h2>
                                           <p>
                                             <a class="link">https://www.yellowpages.com/albany-ny/plumbers</a><p>
                                               <p class="summary">

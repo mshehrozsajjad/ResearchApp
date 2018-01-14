@@ -9,9 +9,12 @@ require 'header.php';
     <div class="container">
       <div class="row block">
         <div class="col-lg-12">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a >14/14</a></li>
+          </ul>
           <h1>Thank you!</h1>
           <p class="lead">
-            That’s it, thanks very much for your help. If you have any friends or colleagues that can help, share this url, it’s private so they will never find it otherwise.
+            That’s it, thanks very much for your help. If you have any friends or colleagues that can help, share <a href="20percentmore.ca">this url</a>, it’s private so they will never find it otherwise.
 <br/>Thanks again.
 
           </p>

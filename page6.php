@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 
 <?php
 require 'header.php';
@@ -9,9 +7,12 @@ require 'header.php';
     <div class="container">
       <div class="row block">
         <div class="col-lg-12">
-          <p class="lead">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a >6/14</a></li>
+          </ul>
+          <h4  style="margin-bottom:30px;">
             Obviously all of that snow got ot be too much so you decided to move west to California, you’re living in a 20 year old house in Glendale California and it needs new windows so off we go to Google with
-          </p>
+          </h4>
 
           <div class="form-holder">
             <div class="container ">
@@ -39,7 +40,7 @@ require 'header.php';
             </div>
 
           </div>
-          <h3 style="margin-top:30px;">
+          <h3 class="lead" style="margin-top:30px;">
             Hit Go!
           </h3>
 

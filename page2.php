@@ -9,14 +9,19 @@ require 'header.php';
     <div class="container">
       <div class="row block">
         <div class="col-lg-12">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a >2/14</a></li>
+          </ul>
 
-          <p class="lead">So let’s start in Albany, New York. You live in a lovely old house but all of a sudden the faucet starts leaking like crazy and spouting water. Your run downstairs and turn off the water.
-          </p>
+          <h4 style="margin-bottom:30px;">
+            So let’s start in Albany, New York. You live in a lovely old house but all of a sudden the faucet starts leaking like crazy and spouting water. Your run downstairs and turn off the water.
+            <br/><br/>
+            Next stop, Google. </h4>
           <p class="lead">
-            Next stop, Google. <br/>
+            And you key in <br/>
 
           </p>
-          <h3 style="margin-bottom:30px;">And you key in</h3>
+
           <div class="form-holder">
             <div class="container ">
               <div class="row">
@@ -43,8 +48,13 @@ require 'header.php';
             </div>
 
           </div>
-          <h3 style="margin-top:30px;">
+          <p class="lead" style="margin-top:30px;">
             Now hit search and go select your plumber, quick before the kitchen floods!
+
+          </p>
+          <h3 >
+
+
           </h3>
 
         </div>

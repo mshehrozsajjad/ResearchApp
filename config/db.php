@@ -1,11 +1,14 @@
 <?php
-
 session_start();
 
-$DB_host = "localhost";
-$DB_user = "root";
-$DB_pass = "";
-$DB_name = "research";
+
+ob_start();
+
+
+$DB_host = "a20p41547244243.db.41547244.e12.hostedresource.net";
+$DB_user = "a20p41547244243";
+$DB_pass = "jQ80h}|(J";
+$DB_name = "a20p41547244243";
 
 //Global Settings
 $pass = 'upwork@123';
@@ -17,7 +20,7 @@ $userId = '';
 
 try
 {
-     $DB_con = new PDO("mysql:host={$DB_host};dbname={$DB_name}",$DB_user,$DB_pass);
+     $DB_con = new PDO("mysql:host={$DB_host};port=3307;dbname={$DB_name}",$DB_user,$DB_pass);
      $DB_con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
      //Check User Ip

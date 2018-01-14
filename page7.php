@@ -53,7 +53,7 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page8.php?p=7&t=1&l=1" >Expert Window Installation - Fully Licensed & Insured‎</a></h2>
+          <h2><a  href="page8.php?p=7&t=1&l=1&" >Expert Window Installation - Fully Licensed & Insured‎</a></h2>
           <p><span class="_mB">Ad</span>
             <a   class="link">www.progressiveiw.com/Window/Installation‎</a><p>
               <p class="summary">
@@ -61,8 +61,20 @@ require 'headerResult.php';
                 Free In-home consultation · Energy-Efficient Windows · Top-Quality Windows · Free Quotes
               </p>
             </div>
+            <div class="search-results">
+              <h2><a  href="page8.php?p=7&t=1&l=2&" >
+                Window Installation Contractor - Quotes Near You-Enter Your Zip‎
+                ‎</a></h2>
+              <p><span class="_mB">Ad</span>
+                <a   class="link">www.networx.com/Free-Estimates/Window-Instal</a><p>
+                  <p class="summary">
+                    We Help you quickly find Quality Local Window Installers. Fast-Easy-Free
+                    Competitive Pricing · Cost Guides · Free Estimates · Hire With Confidence · Residential & Commercial
+
+                  </p>
+                </div>
            <!-- <div class="search-results">
-              <h2><a href="page8.php?p=7&t=1&l=2" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
+              <h2><a href="page8.php?p=7&t=1&l=2&" >Emergency Plumbers - Serving Greater Albany Area‎</a></h2>
               <p><span class="_mB">Ad</span>
                 <a   class="link">www.rolandjdown.com/Plumbing‎</a><p>
                   <p class="summary">
@@ -72,7 +84,7 @@ require 'headerResult.php';
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page8.php?p=7&t=1&l=3" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
+                  <h2><a href="page8.php?p=7&t=1&l=3&" >Now Hiring Plumbers in Albany - $2000 Signing Bonus + Benefits‎‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.crisbro.com/employment/</a><p>
                       <p class="summary">
@@ -84,29 +96,32 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page8.php?p=7&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page8.php?p=7&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page8.php?p=7&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page8.php?p=7&t=2&l=2&"   >
+                            CIntex Windows Inc</a></h2>
                           <p>
-                            <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
+                            <a class="summary">1209 W Glenoaks Blvd  · +1 518-449-1782</a><p>
                               <p class="summary">
                                 Open 24 hrs
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page8.php?p=7&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page8.php?p=7&t=2&l=3&"   >
+                          Fusion Windows And Doors</a></h2>
                           <p>
-                            <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
+                            <a class="summary">1209 W Riverside Blvd  · +1 518-438-3831</a><p>
                               <p class="summary">
                               Open 24 hrs
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page8.php?p=7&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page8.php?p=7&t=2&l=4&"   >Glendale Glass Co</a></h2>
                               <p>
                                 <a class="summary">
-260 Osborne Rd · +1 518-482-4205</a><p>
+                                  Glass contractor for sales & repair
+                                </a><p>
                                   <p class="summary">
                                   Open 24 hrs
                                   </p>
@@ -115,7 +130,7 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page8.php?p=7&t=3&l=1"   >25 Best Window Replacement Companies - Glendale CA | HomeAdvisor</a></h2>
+                      <h2><a href="page8.php?p=7&t=3&l=1&"   >25 Best Window Replacement Companies - Glendale CA | HomeAdvisor</a></h2>
                       <p>
                         <a class="link">https://www.homeadvisor.com › Pro Ratings & Reviews › California › Glendale</a><p>
                           <p class="summary">
@@ -123,7 +138,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page8.php?p=7&t=3&l=2"   >The Best 10 Windows Installation near Glendale, Los Angeles, CA - Yelp</a></h2>
+                          <h2><a href="page8.php?p=7&t=3&l=2&"   >The Best 10 Windows Installation near Glendale, Los Angeles, CA - Yelp</a></h2>
                           <p>
                             <a class="link">https://www.yelp.com › ... › Glendale › Home Services › Windows Installation</a><p>
                               <p class="summary">
@@ -131,7 +146,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page8.php?p=7&t=3&l=3"   >Best Windows replacement near Glendale, Los Angeles, CA - Yelp
+                              <h2><a href="page8.php?p=7&t=3&l=3&"   >Best Windows replacement near Glendale, Los Angeles, CA - Yelp
                               </a></h2>
                               <p>
                                 <a class="link">https://www.yelp.com › Los Angeles, CA › Glendale</a><p>
@@ -140,7 +155,7 @@ require 'headerResult.php';
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page8.php?p=7&t=3&l=4"   >The 10 Best Window Contractors in Glendale, CA (with Free Estimates)</a></h2>
+                                  <h2><a href="page8.php?p=7&t=3&l=4&"   >The 10 Best Window Contractors in Glendale, CA (with Free Estimates)</a></h2>
                                   <p>
                                     <a class="link">https://www.thumbtack.com › CA › Glendale</a><p>
                                       <p class="summary">
@@ -148,7 +163,7 @@ require 'headerResult.php';
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page8.php?p=7&t=3&l=5"   >All West Windows & Doors. Window Replacement & Installation ...</a></h2>
+                                      <h2><a href="page8.php?p=7&t=3&l=5&"   >All West Windows & Doors. Window Replacement & Installation ...</a></h2>
                                       <p>
                                         <a class="link">https://porch.com › Glendale Window Replacement & Installation Companies</a><p>
                                           <p class="summary">
@@ -156,7 +171,7 @@ require 'headerResult.php';
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page8.php?p=7&t=3&l=6"   >The 10 Best Window Replacement & Installation Companies in ... - Porch</a></h2>
+                                          <h2><a href="page8.php?p=7&t=3&l=6&"   >The 10 Best Window Replacement & Installation Companies in ... - Porch</a></h2>
                                           <p>
                                             <a class="link">https://porch.com › CA › Glendale</a><p>
                                               <p class="summary">

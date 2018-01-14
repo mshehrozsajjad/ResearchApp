@@ -53,7 +53,7 @@ require 'headerResult.php';
 
         <!-- Start Ads -->
         <div class="search-results">
-          <h2><a  href="page10.php?p=9&t=1&l=1" >Divorce Lawyer - Get Advice Tailored to You - peterroselaw.com‎</a></h2>
+          <h2><a  href="page10.php?p=9&t=1&l=1&" >Divorce Lawyer - Get Advice Tailored to You - peterroselaw.com‎</a></h2>
           <p><span class="_mB">Ad</span>
             <a   class="link">www.peterroselaw.com/</a><p>
               <p class="summary">
@@ -61,7 +61,7 @@ require 'headerResult.php';
               </p>
             </div>
             <div class="search-results">
-              <h2><a href="page10.php?p=9&t=1&l=2" >Divorce Lawyer In Florida - Do You Know Where You Stand?‎</a></h2>
+              <h2><a href="page10.php?p=9&t=1&l=2&" >Divorce Lawyer In Florida - Do You Know Where You Stand?‎</a></h2>
               <p><span class="_mB">Ad</span>
                 <a   class="link">www.family-lawyer-now.com/‎</a><p>
                   <p class="summary">
@@ -71,7 +71,7 @@ require 'headerResult.php';
                   </p>
                 </div>
                 <div class="search-results">
-                  <h2><a href="page10.php?p=9&t=1&l=3" >Broward County Divorce Lawyers - Search Top Rated Lawyers in FL‎</a></h2>
+                  <h2><a href="page10.php?p=9&t=1&l=3&" >Broward County Divorce Lawyers - Search Top Rated Lawyers in FL‎</a></h2>
                   <p><span class="_mB">Ad</span>
                     <a   class="link">www.avvo.com/divorce-lawyers/broward-county‎</a><p>
                       <p class="summary">
@@ -85,29 +85,33 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page10.php?p=9&t=2&l=1" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a href="page10.php?p=9&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page10.php?p=9&t=2&l=2"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page10.php?p=9&t=2&l=2&"   >
+                            Carmen G. Soto, PA</a></h2>
                           <p>
-                            <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
+                            <a class="summary">
+                              600 S Andrews Ave #403 · +1 954-523-0703
+                            </a><p>
                               <p class="summary">
                                 Open 24 hrs
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page10.php?p=9&t=2&l=3"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page10.php?p=9&t=2&l=3&"   >
+                            Donald G. Criscuolo PA
+                          </a></h2>
                           <p>
-                            <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
+                            <a class="summary">633 S Andrews Ave · +1 954-462-9797</a><p>
                               <p class="summary">
                               Open 24 hrs
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page10.php?p=9&t=2&l=4"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page10.php?p=9&t=2&l=4&"   >Sandra Bonfiglio P.A.</a></h2>
                               <p>
-                                <a class="summary">
-260 Osborne Rd · +1 518-482-4205</a><p>
+                                <a class="summary">105 S Ave Of The Arts · +1 954-945-7591</a><p>
                                   <p class="summary">
                                   Open 24 hrs
                                   </p>
@@ -116,7 +120,7 @@ require 'headerResult.php';
                     </div>
                     <!-- Organic Links -->
                     <div class="search-results">
-                      <h2><a href="page10.php?p=9&t=3&l=1"   >Fort Lauderdale Divorce Lawyers - Compare Top Divorce Attorneys in ...</a></h2>
+                      <h2><a href="page10.php?p=9&t=3&l=1&"   >Fort Lauderdale Divorce Lawyers - Compare Top Divorce Attorneys in ...</a></h2>
                       <p>
                         <a class="link">https://www.justia.com/lawyers/divorce/florida/fort-lauderdale</a><p>
                           <p class="summary">
@@ -124,7 +128,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results">
-                          <h2><a href="page10.php?p=9&t=3&l=2"   >Top Divorce Lawyers in Broward County, FL | FindLaw</a></h2>
+                          <h2><a href="page10.php?p=9&t=3&l=2&"   >Top Divorce Lawyers in Broward County, FL | FindLaw</a></h2>
                           <p>
                             <a class="link">lawyers.findlaw.com › Divorce › Florida</a><p>
                               <p class="summary">
@@ -132,7 +136,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results">
-                              <h2><a href="page10.php?p=9&t=3&l=3"   >Find the best Divorce lawyer in Fort Lauderdale, FL 2018 - Avvo</a></h2>
+                              <h2><a href="page10.php?p=9&t=3&l=3&"   >Find the best Divorce lawyer in Fort Lauderdale, FL 2018 - Avvo</a></h2>
                               <p>
                                 <a class="link">https://www.avvo.com › Find a lawyer › Florida › Fort Lauderdale</a><p>
                                   <p class="summary">
@@ -140,7 +144,7 @@ require 'headerResult.php';
                                   </p>
                                 </div>
                                 <div class="search-results">
-                                  <h2><a href="page10.php?p=9&t=3&l=4"   >Best Divorce attorney in Fort Lauderdale, FL - Yelp</a></h2>
+                                  <h2><a href="page10.php?p=9&t=3&l=4&"   >Best Divorce attorney in Fort Lauderdale, FL - Yelp</a></h2>
                                   <p>
                                     <a class="link">https://www.yelp.com/search?find_desc=Divorce+Attorney...Fort+Lauderdale%2C...</a><p>
                                       <p class="summary">
@@ -148,7 +152,7 @@ require 'headerResult.php';
                                       </p>
                                     </div>
                                     <div class="search-results">
-                                      <h2><a href="page10.php?p=9&t=3&l=5"   >Fort Lauderdale Family & Divorce Attorney</a></h2>
+                                      <h2><a href="page10.php?p=9&t=3&l=5&"   >Fort Lauderdale Family & Divorce Attorney</a></h2>
                                       <p>
                                         <a class="link">https://www.sandrabonfiglio.com/</a><p>
                                           <p class="summary">
@@ -156,7 +160,7 @@ require 'headerResult.php';
                                           </p>
                                         </div>
                                         <div class="search-results">
-                                          <h2><a href="page10.php?p=9&t=3&l=6"   >The 5 Best Divorce Lawyers in Fort Lauderdale, FL (with Free Estimates)</a></h2>
+                                          <h2><a href="page10.php?p=9&t=3&l=6&"   >The 5 Best Divorce Lawyers in Fort Lauderdale, FL (with Free Estimates)</a></h2>
                                           <p>
                                             <a class="link">https://www.thumbtack.com › FL › Fort Lauderdale</a><p>
                                               <p class="summary">
