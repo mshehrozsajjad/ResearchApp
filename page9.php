@@ -85,10 +85,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page10.php?p=9&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a  ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page10.php?p=9&t=2&l=2&"   >
+                          <h2 style="color:black;"><a href="page10.php?p=9&t=2&l=1&"   >
                             Carmen G. Soto, PA</a></h2>
                           <p>
                             <a class="summary">
@@ -99,7 +99,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page10.php?p=9&t=2&l=3&"   >
+                          <h2><a href="page10.php?p=9&t=2&l=2&"   >
                             Donald G. Criscuolo PA
                           </a></h2>
                           <p>
@@ -109,7 +109,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page10.php?p=9&t=2&l=4&"   >Sandra Bonfiglio P.A.</a></h2>
+                              <h2><a href="page10.php?p=9&t=2&l=3&"   >Sandra Bonfiglio P.A.</a></h2>
                               <p>
                                 <a class="summary">105 S Ave Of The Arts · +1 954-945-7591</a><p>
                                   <p class="summary">

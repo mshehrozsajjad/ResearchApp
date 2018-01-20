@@ -14,7 +14,7 @@ require 'header.php';
           </ul>
           <h1>Thank you!</h1>
           <p class="lead">
-            That’s it, thanks very much for your help. If you have any friends or colleagues that can help, share <a href="20percentmore.ca">this url</a>, it’s private so they will never find it otherwise.
+            That’s it, thanks very much for your help. If you have any friends or colleagues that can help, share <a href="http://20percentmore.ca">this url</a>, it’s private so they will never find it otherwise.
 <br/>Thanks again.
 
           </p>

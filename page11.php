@@ -84,10 +84,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page12.php?p=11&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a  ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page12.php?p=11&t=2&l=2&"   >
+                          <h2 style="color:black;"><a href="page12.php?p=11&t=2&l=1&"   >
                             T-Nice Personal Trainer in Miami
                           </a></h2>
                           <p>
@@ -97,7 +97,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page12.php?p=11&t=2&l=3&"   >
+                          <h2><a href="page12.php?p=11&t=2&l=2&"   >
                             Peak Physique & Performance - Personal Train...</a></h2>
                           <p>
                             <a class="summary">350 NE 24th St #102 · +1 305-674-8435</a><p>
@@ -106,7 +106,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page12.php?p=11&t=2&l=4&"   >
+                              <h2><a href="page12.php?p=11&t=2&l=3&"   >
                                 Primal Fit 360 Personal Training</a></h2>
                               <p>
                                 <a class="summary">

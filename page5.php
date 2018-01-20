@@ -67,10 +67,10 @@ require 'headerResult.php';
             <!-- End Ads -->
 
             <div class="card">
-              <a href="page6.php?p=5&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+              <a ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
               <div class="container">
                 <div class="search-results border">
-                  <h2 style="color:black;"><a href="page6.php?p=5&t=2&l=2&"   >Lake Erie Spine & Injury Center</a></h2>
+                  <h2 style="color:black;"><a href="page6.php?p=5&t=2&l=1&"    >Lake Erie Spine & Injury Center</a></h2>
                   <p>
                     <a class="summary">Erie, PA · (814) 835-0911</a><p>
                       <p class="summary">
@@ -78,7 +78,7 @@ require 'headerResult.php';
                       </p>
                     </div>
                     <div class="search-results border">
-                      <h2><a href="page6.php?p=5&t=2&l=3&"   >Iadeluca Chiropractic Center</a></h2>
+                      <h2><a href="page6.php?p=5&t=2&l=2&"   >Iadeluca Chiropractic Center</a></h2>
                       <p>
                         <a class="summary">Erie, PA, USA · +1 814-459-2580</a><p>
                           <p class="summary">
@@ -86,7 +86,7 @@ require 'headerResult.php';
                           </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page6.php?p=5&t=2&l=4&"   >Chiropractic Solutions</a></h2>
+                          <h2><a href="page6.php?p=5&t=2&l=3&"   >Chiropractic Solutions</a></h2>
                           <p>
                             <a class="summary">
                               Erie, PA, USA · +1 814-825-1102</a><p>

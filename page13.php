@@ -88,10 +88,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page14.php?p=13&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a  ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page14.php?p=13&t=2&l=2&"   >Atlanta Dental Spa</a></h2>
+                          <h2 style="color:black;"><a href="page14.php?p=13&t=2&l=1&"   >Atlanta Dental Spa</a></h2>
                           <p>
                             <a class="summary">Atlanta, GA, USA · +1 404-577-8950</a><p>
                               <p class="summary">
@@ -99,7 +99,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page14.php?p=13&t=2&l=3&"   >A to Z Pediatric Dentistry: Dr. Z - Zeyad Hassan DMD, MS</a></h2>
+                              <h2><a href="page14.php?p=13&t=2&l=2&"   >A to Z Pediatric Dentistry: Dr. Z - Zeyad Hassan DMD, MS</a></h2>
                               <p>
                                 <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                                   <p class="summary">
@@ -107,7 +107,7 @@ require 'headerResult.php';
                                   </p>
                                 </div>
                                 <div class="search-results border">
-                                  <h2><a href="page14.php?p=13&t=2&l=4&"   >Glenwood Dentistry</a></h2>
+                                  <h2><a href="page14.php?p=13&t=2&l=3&"   >Glenwood Dentistry</a></h2>
                                   <p>
                                     <a class="summary">
                                       260 Osborne Rd · +1 518-482-4205</a><p>

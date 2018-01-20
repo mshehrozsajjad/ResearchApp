@@ -85,10 +85,10 @@ require 'headerResult.php';
                     <!-- End Ads -->
 
                     <div class="card">
-                      <a href="page4.php?p=3&t=2&l=1&" ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
+                      <a  ><img src="https://www.elegantthemes.com/blog/wp-content/uploads/2016/09/Divi-Google-Maps.png" alt="Avatar" style="width:100%"></a>
                       <div class="container">
                         <div class="search-results border">
-                          <h2 style="color:black;"><a href="page4.php?p=3&t=2&l=2&"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
+                          <h2 style="color:black;"><a href="page4.php?p=3&t=2&l=1&"   >Crisafulli Bros. Plumbing & Heating Contractors</a></h2>
                           <p>
                             <a class="summary">520 Livingston Ave · +1 518-449-1782</a><p>
                               <p class="summary">
@@ -96,7 +96,7 @@ require 'headerResult.php';
                               </p>
                         </div>
                         <div class="search-results border">
-                          <h2><a href="page4.php?p=3&t=2&l=3&"   >Roto-Rooter Plumbing & Drain Services</a></h2>
+                          <h2><a href="page4.php?p=3&t=2&l=2&"   >Roto-Rooter Plumbing & Drain Services</a></h2>
                           <p>
                             <a class="summary">60 Dott Ave · +1 518-438-3831</a><p>
                               <p class="summary">
@@ -104,7 +104,7 @@ require 'headerResult.php';
                               </p>
                             </div>
                             <div class="search-results border">
-                              <h2><a href="page4.php?p=3&t=2&l=4&"   >Empire State Plumbing, Inc.</a></h2>
+                              <h2><a href="page4.php?p=3&t=2&l=3&"   >Empire State Plumbing, Inc.</a></h2>
                               <p>
                                 <a class="summary">
 260 Osborne Rd · +1 518-482-4205</a><p>
